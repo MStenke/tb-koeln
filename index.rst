@@ -32,17 +32,13 @@ Nutanix Technology Bootcamp
 
 Während der heutigen Veranstaltungen lernen Sie Ihnen:
 
-- **Vomittags:** Einen generellen Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur.
-- **Nachmittags:** Nach dem Mittagessen beginnen Sie mit dem praktischen Teil und lernen anhand der einzelnen Lab's Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur praktisch kennen.
-
-**Vomittags:**
+Vomittags:
   Einen generellen Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur.
 
 Nachmittags:
   Nach dem Mittagessen beginnen Sie mit dem praktischen Teil und lernen anhand der einzelnen Lab's Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur praktisch kennen.
 
-
-.. note::
+.. Hinweis::
    Für die praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammenzufinden und die Labs gemeinsam zu durchlaufen.
 
 
