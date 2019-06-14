@@ -28,7 +28,7 @@ Nutanix Technology Bootcamp
 
 **Herzlich Willkommen auf dem Nutanix Technology Bootcamp!**
 
-.. figure:: images\Intro.png
+.. figure:: images/Intro.png
 
 Während der heutigen Veranstaltungen zeigen wir Ihnen:
 
