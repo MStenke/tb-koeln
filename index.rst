@@ -39,6 +39,7 @@ Während der heutigen Veranstaltungen zeigen wir Ihnen:
 
 
 Hier auch nochmals die angedachte Agenda des heutigen Tages:
+
 +-------------------------------------------+
 |  Agenda                                   |
 +==============+============================+
