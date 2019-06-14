@@ -28,6 +28,8 @@ Nutanix Technology Bootcamp
 
 **Herzlich Willkommen auf dem Nutanix Technology Bootcamp!**
 
+   .. figure:: images\Intro.png
+
 Während der heutigen Veranstaltungen zeigen wir Ihnen:
 
 - Vomittags: Einen generellen Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur
