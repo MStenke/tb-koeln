@@ -30,15 +30,15 @@ Nutanix Technology Bootcamp
 
 Während der heutigen Veranstaltungen zeigen wir Ihnen:
 
-- Vomittags: Einen generellen Überblick über das Nutanix Portfolio
-- Nachmittags: Sie können selbst prkatisch erleben wie sich eien Nutanix Infrastruktur bedienen lässt
+- Vomittags: Einen generellen Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur
+- Nachmittags: Nach dem Mittagessen beginnen Sie mit dem praktischen Teil und lernen anhand der einzelnen Lab's Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur praktisch kennen
 
    .. note::
 
-     Da es nicht nur einen rein Theoretische Veranstaltung ist, ist es dringende empfohlen nehmen Sie Ihren Laptop mit zur Veranstaltung, um an den Live-Demo-Übungen teilzunehmen.
+     Für die prkatischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams  zusammenzufindne udn die Labs gemeinsam durchzugehen.
 
 
-Hier auch nochmals die angedacte Agenda des heutigen Tages:
+Hier auch nochmals die angedachte Agenda des heutigen Tages:
 +------------------------------------------------------------------------------------+
 |  Agenda                                                       					 |
 +================================+===================================================+
