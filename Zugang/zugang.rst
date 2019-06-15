@@ -19,16 +19,15 @@ Pulse Secure VPN Client (empfohlen)
 3.	Herunterladen & installieren des Clients.
 4.	Abmelden an der Web UI.
 5.	Client öffnen und eine neue Verbindung mit folgenden Parametern hinzufügen:
-  Type: Policy Secure (UAC) or
-  Connection Server (VPN)
-  Name: X-Labs - PHX
-  Server URL: xlv-uswest1.nutanix.com
+- Type: Policy Secure (UAC) or
+- Connection Server (VPN)
+- Name: X-Labs - PHX
+- Server URL: xlv-uswest1.nutanix.com
 6.	Sobald Client eingerichtet mit den o.g. Zugangsdaten verbinden.
 
 
 Parallels VDI Zugang (optional)
 -------------------------------
-1.	Unter Verwendung der o.g. Zugangsdaten bitte an folgender Website anmelden:
-https://xld-uswest1.nutanix.com
+1.	Unter Verwendung der o.g. Zugangsdaten bitte an folgender Website anmelden: https://xld-uswest1.nutanix.com
 2.	Sie haben die Option den Parallel „Desktop Client“ oder den „HTML5 Client“ (im Browser) zu verwenden.
 3.	Wählen Sie Ihren bevorzugten Client aus und verbinden sich mit der Umgebung.
