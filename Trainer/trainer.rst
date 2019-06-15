@@ -16,6 +16,6 @@ Martin Stenke
 -------------
 .. figure:: images/MStenke.png
 
-  Senior Systems Engineer @ Nutanix Deutschland GmbH
-    Leonberg, Baden-Wuerttemberg, Deutschland
-    Seit Dezember 2018 bei Nutanix
+Senior Systems Engineer @ Nutanix Deutschland GmbH
+  Leonberg, Baden-Wuerttemberg, Deutschland
+  Seit Dezember 2018 bei Nutanix
