@@ -7,8 +7,12 @@ Zugang zur Lab Umgebung
 Zugangs-Übersicht
 -----------------
 Die Lab Umgebungen stehen physisch in der USA in Phoenix. Um auf diese zugreifen zu können wird ein Remote Zugriff benötigt.
-Hierfür stehen 2 Optionen zur Auswahl:
-**VPN oder VDI Zugang.**
+Hierfür stehen 2 Optionen zur Auswahl: **VPN oder VDI Zugang.**
+
+.. note::
+   Um den VPN Zugang zu nutzen muss ein VPN Client installiert werden, dafür werden Administrator Rechte benötigt.
+
+
 
 .. figure:: images/Zugang.png
 
