@@ -41,4 +41,4 @@ Nachmittags:
   Nach dem Mittagessen beginnen Sie mit dem praktischen Teil und lernen anhand der einzelnen Lab's Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur praktisch kennen.
 
 .. note::
-   Für die praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammenzufinden und die Labs gemeinsam zu durchlaufen.
+   Für die praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammen zu finden und die Labs gemeinsam zu durchlaufen.

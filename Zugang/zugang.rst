@@ -9,15 +9,15 @@ Zugangs-Übersicht
 Die Lab Umgebungen stehen physisch in der USA in Phoenix. Um auf diese zugreifen zu können wird ein Remote Zugriff benötigt.
 Hierfür stehen 2 Optionen zur Auswahl: **VPN oder VDI Zugang.**
 
-.. note::
-   Um den VPN Zugang zu nutzen muss ein VPN Client installiert werden, dafür werden Administrator Rechte auf Ihrem Laptop benötigt.
-
-
-
 .. figure:: images/Zugang.png
 
 Pulse Secure VPN Client (empfohlen)
 -----------------------------------
+
+.. note::
+   Um den VPN Zugang zu nutzen muss ein VPN Client installiert werden, dafür werden Administrator Rechte auf Ihrem Laptop benötigt.
+
+
 1.	Falls der Client bereits installiert ist bitte zu  Schritt 5 springen.
 2.	Um den Client herunter zu laden bitte an folgender Website unter Verwendung der bereitgestellten Zugangsdaten anmelden: https://xlv-useast1.nutanix.com
 3.	Herunterladen & installieren des Clients.
