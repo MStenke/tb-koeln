@@ -5,7 +5,9 @@
    :caption: BootCamp Infos
    :hidden:
 
+   Trainer/trainer
    Zugang/zugang
+
 
 .. toctree::
    :maxdepth: 2
@@ -30,7 +32,7 @@ Nutanix Technology Bootcamp
 
 .. figure:: images/Intro.png
 
-Während der heutigen Veranstaltungen lernen Sie Ihnen:
+Während der heutigen Veranstaltungen lernen Sie:
 
 Vomittags:
   Einen generellen Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur.
