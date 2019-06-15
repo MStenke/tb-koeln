@@ -10,7 +10,7 @@ Die Lab Umgebungen stehen physisch in der USA in Phoenix. Um auf diese zugreifen
 Hierfür stehen 2 Optionen zur Auswahl: **VPN oder VDI Zugang.**
 
 .. note::
-   Um den VPN Zugang zu nutzen muss ein VPN Client installiert werden, dafür werden Administrator Rechte benötigt.
+   Um den VPN Zugang zu nutzen muss ein VPN Client installiert werden, dafür werden Administrator Rechte auf Ihrem Laptop benötigt.
 
 
 
@@ -19,7 +19,7 @@ Hierfür stehen 2 Optionen zur Auswahl: **VPN oder VDI Zugang.**
 Pulse Secure VPN Client (empfohlen)
 -----------------------------------
 1.	Falls der Client bereits installiert ist bitte zu  Schritt 5 springen.
-2.	Um den Client herunter zu laden bitte an folgender Website unter Verwendung der o.g. Zugangsdaten anmelden: https://xlv-useast1.nutanix.com
+2.	Um den Client herunter zu laden bitte an folgender Website unter Verwendung der bereitgestellten Zugangsdaten anmelden: https://xlv-useast1.nutanix.com
 3.	Herunterladen & installieren des Clients.
 4.	Abmelden an der Web UI.
 5.	Client öffnen und eine neue Verbindung mit folgenden Parametern hinzufügen:
@@ -34,6 +34,6 @@ Pulse Secure VPN Client (empfohlen)
 
 Parallels VDI Zugang (optional)
 -------------------------------
-1.	Unter Verwendung der o.g. Zugangsdaten bitte an folgender Website anmelden: https://xld-uswest1.nutanix.com
+1.	Unter Verwendung der bereitgestellten Zugangsdaten bitte an folgender Website anmelden: https://xld-uswest1.nutanix.com
 2.	Sie haben die Option den Parallel „Desktop Client“ oder den „HTML5 Client“ (im Browser) zu verwenden.
 3.	Wählen Sie Ihren bevorzugten Client aus und verbinden sich mit der Umgebung.
