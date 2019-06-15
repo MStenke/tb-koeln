@@ -4,16 +4,16 @@
 Ihre heutigen Trainer
 ---------------------
 
-**Andreas Ehrenreiter**
-
+Andreas Ehrenreiter
+-------------------
 .. figure:: images/AEhrenreiter.png
 
 Senior Systems Engineer @ Nutanix Deutschland GmbH
   München, Bayern, Deutschland
   Seit Februar 2006 bei Nutanix
 
-**Martin Stenke**
-
+Martin Stenke
+-------------
 .. figure:: images/MStenke.png
 
   Senior Systems Engineer @ Nutanix Deutschland GmbH
