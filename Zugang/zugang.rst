@@ -14,15 +14,17 @@ Hierfür stehen 2 Optionen zur Auswahl:
 
 Pulse Secure VPN Client (empfohlen)
 -----------------------------------
-1.	Falls Client bereits installiert zu Schritt 5 springen.
+1.	Falls der Client bereits installiert ist bitte zu  Schritt 5 springen.
 2.	Um den Client herunter zu laden bitte an folgender Website unter Verwendung der o.g. Zugangsdaten anmelden: https://xlv-useast1.nutanix.com
 3.	Herunterladen & installieren des Clients.
 4.	Abmelden an der Web UI.
 5.	Client öffnen und eine neue Verbindung mit folgenden Parametern hinzufügen:
+
 - Type: Policy Secure (UAC) or
 - Connection Server (VPN)
 - Name: X-Labs - PHX
 - Server URL: xlv-uswest1.nutanix.com
+
 6.	Sobald Client eingerichtet mit den o.g. Zugangsdaten verbinden.
 
 
