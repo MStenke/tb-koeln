@@ -29,7 +29,7 @@ Cluster Hardware Details
      - 4800 GB pro Node / 19200 GB pro Cluster
 
 .. note::
-  Bedenken Sie bitte, dass diese HPoC Testumgebung zum einen nicht auf der neuesten Hardware besteht und das zum anderen aufgrund der Entfernung entsprechende Latenzen auftreten können. Nichtsdesto trotz lässt sich mit dieser Umgebung sehr gut erfahren wie einfach typische Routine Aufgaben mit einer Nutanix Plattform durchgeführt werden können.
+  Bedenken Sie bitte, dass diese Technology Bootcamp Testumgebung zum einen nicht auf der neuesten Hardware besteht und das zum anderen aufgrund der Entfernung entsprechende Latenzen auftreten können. Nichtsdesto trotz lässt sich mit dieser Umgebung sehr gut erfahren wie einfach typische Routine Aufgaben mit einer Nutanix Plattform durchgeführt werden können.
 
 Infrastruktur IP's
 +++++++++++++
