@@ -187,7 +187,32 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
   * - **Move**
     - nutanix
     - nutanix/4u
-    
+
+Darüber hinaus besitzt das Cluster eine dedizierte Domain Controller VM, welche Active Directory Dienste für die **NTNXLAB.local** Domain bereitstellt. Die Domain wurde mit folgenden Nutzern und Gruppen vorkonfiguriert:
+
+.. list-table::
+  :widths: 20 20 10
+  :header-rows: 1
+
+  * - Gruppe
+    - Benutzername(n)
+    - Passwort
+  * - **Administrators**
+    - Administrator
+    - nutanix/4u
+  * - **SSP Admins**
+    - adminuser01-adminuser25
+    - nutanix/4u
+  * - **SSP Developers**
+    - devuser01-devuser25
+    - nutanix/4u
+  * - **SSP Power Users**
+    - poweruser01-poweruser25
+    - nutanix/4u
+  * - **SSP Basic Users**
+    - basicuser01-basicuser25
+    - nutanix/4u
+
 Netzwerk
 ++++++++
 
