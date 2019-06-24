@@ -5,7 +5,7 @@
    :caption: BootCamp Infos
    :hidden:
 
-   trainer/trainer
+   Trainer/trainer
    clusteraccess/clusteraccess
    clusterdetails/clusterdetails
 
