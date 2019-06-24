@@ -25,4 +25,4 @@ Nutzen Sie die Chance und stellen uns Fragen in den Bauch!
    * - Seit Februar 2006 bei Nutanix
      - Seit Dezember 2018 bei Nutanix
    * - *Liebt den Geruch von ge"move"ten" VM's!*
-     - Möge AHV mit dir sein!
+     - *Möge AHV mit dir sein!*
