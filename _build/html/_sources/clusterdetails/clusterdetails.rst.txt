@@ -1,7 +1,7 @@
 .. clusterdetails:
 
 --------------------
-HPoC Cluster Details
+Bootcamp Cluster Details
 --------------------
 
 Cluster Hardware Details

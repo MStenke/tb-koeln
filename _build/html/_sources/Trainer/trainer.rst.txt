@@ -1,10 +1,14 @@
 .. trainer:
 
 ---------------------
-Heutige Drill Instructor
+Ihre Drill Instructor
 ---------------------
 
-Ihre beiden heutigen *Drill Instructor* führen Sie durch den Tag! Nutzen Sie die Chance und stellen uns Fragen in den Bauch!
+Ihre beiden heutigen *Drill Instructor* führen Sie durch den Tag! 
+
+.. figure:: images/bootcamp.png
+
+Nutzen Sie die Chance und stellen uns Fragen in den Bauch!
 
 .. list-table::
    :widths: 40 40

@@ -26,10 +26,8 @@
 .. _welcome:
 
 ---------------------------
-Nutanix Technology Bootcamp
+Herzlich Willkommen auf dem Nutanix Technology Bootcamp!
 ---------------------------
-
-**Herzlich Willkommen auf dem Nutanix Technology Bootcamp!**
 
 .. figure:: images/Intro.png
 
