@@ -1,46 +1,41 @@
 .. lab1:
 
----------------------
-Lab 1: Nutanix Technology Überblick
----------------------
+----------------
+Lab 1: Überblick
+----------------
 
-**In diesem Lab werden Sie Prism Element kennenlernen und mit den FUnktionen und der Navigationen vertraut. Sie werden Prism nutzen um typische Cluster Administrations Aufgaben, wie etwa Storage und Netzwerk, durchzuführen. Sie werden auch einfache VM Deployment und Verwaltungsaufgaben mit Prism und AHV erlernen. Zu guter Letzt werden Sie VM Data Protection inkl. Snapshots und Replikation erkunden.**
+**In diesem Lab lernen Sie Prism Element kennen und werden mit dessen Funktionen und der Benutzerführung vertraut. Sie werden Prism Element nutzen um Basis Cluster Administrations-Aufgaben (inkl. Storage und Netzwerk Verwaltung) sowie Basis VM Deployments und Management Aufgaben mit Prism und AHV durchzuführen. Zuletzt werden Sie VM Data Protection  Optionen wie Snapshots und Replikation erkunden.**
 
 Prism Element
--------------
++++++++++++++
 
-The Prism service provides the web UI for managing Nutanix clusters and runs on every Controller VM (CVM). This local Prism service, referred to Prism Element, can be accessed via the IP of any individual CVM, or via the virtual IP for the cluster, which will redirect to the current Prism leader.
+Der Prism Dienst stellt das Webinterface bereit um die Nutanix Cluster zu verwalten und läuft auf jeder Controller VM (CVM).
+Dieser lokale Dienst, Prism Element genannt, kann durch die IP Adresse jeder einzelnen CVM oder durch die virtuelle Cluster IP Adresse (diese leitet dann zu dem aktuellem Prism Leader um) erreicht werden.
 
-#. Open \https://<*NUTANIX-CLUSTER-IP*>:9440 in a new browser tab.
+#. Rufen Sie \https://<*NUTANIX-CLUSTER-IP*>:9440 in einem neuem Browser Tab auf.
 
-#. Log in using the following credentials:
+#. Melden Sie sich mit den folgenden Zugangsdaten an:
 
-   - **Username** - admin
-   - **Password** - *HPOC Password*
+   - **username** - admin
+   - **password** - <*HPOC Password*>
 
    .. figure:: images/nutanix_tech_overview_01.png
 
-#. After you log in to Prism Element, familiarize yourself with the Prism UI. Explore the information on the **Home** screen, as well as the other screens.
+#. Nachdem Sie sich in Prism Element angemeldet haben, verschaffen Sie sich einen Überblick über die Prism Weboberfläche. Schauen Sie sich die Informationen auf dem **Home Screen** und unter anderen Menüpunkten in Ruhe an.
 
-#. Review the Home screen, and identify the following items:
+#. Identifizieren Sie auf dem **Home Screen** die folgenden Informationen:
 
-   - Hypervisor
-   - Version
-   - Hardware Model
-   - Health
+   - Verwendeter Hypervisor
+   - Hypervisor Version
+   - Hardware Modell
+   - Health (Gesundheitsstatus des Clusters)
    - VM Summary
    - Warning Alerts
    - Data Resiliency Status
 
    .. figure:: images/nutanix_tech_overview_02.png
 
-#. Review the UI navigation options.
-
-   .. figure:: images/nutanix_tech_overview_03.png
-
-#. Examine the cluster hardware under **Prism > Hardware**, click **Hardware**, then click **Diagram**.
-
-#. Review the hardware summary information:
+#. Werfen Sie einen Blick auf die Cluster Hardware unter **Prism > Hardware**, Klick **Hardware**, dann Klick auf **Diagram**. Dort können Sie die Hardware Zusammenfassung & Details einsehen:
 
    - Blocks
    - Hosts
@@ -50,51 +45,59 @@ The Prism service provides the web UI for managing Nutanix clusters and runs on 
 
    .. figure:: images/nutanix_tech_overview_04.png
 
-#. Review the other sections, and do a quick walk through:
-
-   - VM
-   - Health
-   - Network
-   - Data Protection
-   - Storage
-   - Alerts
-   - Etc.
-
-#. Review other sections of the Prism UI
-
-   - Health :fa:`heartbeat`
-   - Alarms :fa:`bell`
-   - Tasks :fa:`circle-o`
-   - Search :fa:`search`
-   - Help :fa:`question`
-   - Configuration :fa:`cog`
-   - User :fa:`user`
+#. Schauen Sie sich die obere Toolbar nun etwas genauer an:
 
    .. figure:: images/nutanix_tech_overview_05.png
 
-Prism Element UI Review
-.......................
+   - Health
+   - Alarms
+   - Tasks
+   - Search
+   - Help
+   - Configuration
+   - User
 
-Where would you locate the version of AOS you are running?
+#. Starten Sie über das **Hilfe Symbol** in der Toolbar als nächstes das **Health Tutorial**  und machen Sich mit der Funktionsweise des Health Bereiches vertraut.
+
+   .. figure:: images/nutanix_tech_overview_10.png
+
+   .. figure:: images/nutanix_tech_overview_11.png
+
+
+#. Schauen Sie sich nun die restlichen Hauptmenü-Einträge auch noch genauer an:
+
+   .. figure:: images/nutanix_tech_overview_03.png
+
+   - VM, Storage, Network, Hardware, File Server, Data Protection, Analysis, Alerts, Tasks, Settings, Self Service
+
+
+Prism Element - Rückblick
++++++++++++++++++++++++++
+
+Wie können Sie die verwendete **AOS Version** herausfinden?
 
 .. figure:: images/nutanix_tech_overview_06.png
 
-You can do this by clicking on the **User** drop down :fa:`user`, and clicking **About Nutanix**.
+(Sie können dies durch einen Klick auf das **User** Dropdown und Klick auf **About Nutanix**.)
 
-How would you get to the following screen to view a summary of the number of hosts (or nodes) and the resource capacity and current utilization?
+Wie würden Sie zu folgender Ansicht gelangen, welche Ihnen eine Übersicht über die **Anzahl der Hosts**, der **Cluster Kapazität** und der **Cluster Auslastung** anzeigt?
 
 .. figure:: images/nutanix_tech_overview_07.png
 
-In **Prism > Hardware**, click **Hardware**, then click **Table**.
+(In **Prism Element > Hardware**, Klick **Hardware**, dann auf **Table**).
 
-How would you get the following screen to see the health of your cluster?
+Wo finden Sie folgenden Screenshot mit den **Gesundheitsinformationen** zu dem Cluster?
 
 .. figure:: images/nutanix_tech_overview_08.png
 
-In **Prism > Health**, click **Health**, then click **Summary** in the right pane.
+(In **Prism > Health**, Klick **Health**, dann Klick **Summary** in der rechten Spalte.)
 
-What page would show you the latest activity in the system? On this page, you can monitor the progress of any task and keep track of what has been done in the past using time stamps. Can you figure out two different ways to get there?
+Auf welcher Seite würden Sie die **letzte Aktivität** auf dem System einsehen? Auf dieser Seite können Sie den Fortschritt aller Tasks einsehen und erkennen welche Tasks in der Vergangenheit gelaufen sind. Kennen Sie beide Wege um dorthin zu gelangen?
 
 .. figure:: images/nutanix_tech_overview_09.png
 
-Browse to **Prism > Tasks** and click **Tasks**, or click the :fa:`circle-o` icon in the toolbar.
+(In **Prism > Tasks**, Klick auf **Tasks** oder das **"Kreis-Symbol"** in der oberen Toolbar.
+
+Zusammenfassung
++++++++++++++++
+Prism Element ist die Nutanix "Management plane" / Verwaltungs-Ebene welche auf jedem Knoten läuft und ein HTML5 Webinterface für das Cluster bereitstellt. Die Oberfläche & Bedienbarkeit wurde bewusst so angelegt, dass die wichtigsten Informationen für einen Administrator intuitiv ersichtlich sind.

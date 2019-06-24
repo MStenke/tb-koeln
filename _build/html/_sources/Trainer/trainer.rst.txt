@@ -4,22 +4,21 @@
 Heutige Drill Instructor
 ---------------------
 
-.. figure:: images/fullmetaljacket.gif
+Ihre beiden heutigen *Drill Instructor* führen Sie durch den Tag! Nutzen Sie die Chance und stellen uns Fragen in den Bauch!
 
-Andreas Ehrenreiter
--------------------
-.. figure:: images/AEhrenreiter.png
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
 
-**Senior Systems Engineer @ Nutanix Deutschland GmbH**
-
-- München, Bayern, Deutschland
-- Seit Februar 2006 bei Nutanix
-
-Martin Stenke
--------------
-.. figure:: images/MStenke.png
-
-**Senior Systems Engineer @ Nutanix Deutschland GmbH**
-
-- Leonberg, Baden-Wuerttemberg, Deutschland
-- Seit Dezember 2018 bei Nutanix
+   * - **Andreas Ehrenreiter**
+     - **Martin Stenke**
+   * - .. figure:: images/AEhrenreiter2.png
+     - .. figure:: images/MStenke.png
+   * - **Systems Engineer**
+     - **Systems Engineer**
+   * - München, Bayern
+     - Leonberg, Baden-Wuerttemberg
+   * - Seit Februar 2006 bei Nutanix
+     - Seit Dezember 2018 bei Nutanix
+   * - *Liebt den Geruch von ge"move"ten" VM's!*
+     - Möge AHV mit dir sein!
