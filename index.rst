@@ -1,5 +1,4 @@
 .. title:: Nutanix Technology Bootcamp
-
 .. toctree::
    :maxdepth: 2
    :caption: BootCamp Infos
