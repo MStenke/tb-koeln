@@ -16,7 +16,7 @@ Nutzen Sie die Chance und stellen mir Fragen in den Bauch!
 
    * - **Dipl.-Ing. Günter Baumgart**
    * - .. figure:: images/Guenter_Baumgart.jpg
-   * - **Senior Systems Engineerr**
+   * - **Senior Systems Engineer**
    * - Essen, Nordrhein-Westfalen
    * - Seit September 2018 bei Nutanix
    * - *Liebt den Geruch von ge"move"ten" VM's!*
