@@ -5,8 +5,9 @@
    :caption: BootCamp Infos
    :hidden:
 
-   Trainer/trainer
-   Zugang/zugang
+   trainer/trainer
+   clusteraccess/clusteraccess
+   clusterdetails/clusterdetails
 
 
 .. toctree::

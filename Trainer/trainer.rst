@@ -1,8 +1,10 @@
 .. trainer:
 
 ---------------------
-Ihre heutigen Trainer
+Heutige Drill Instructor
 ---------------------
+
+.. figure:: images/fullmetaljacket.gif
 
 Andreas Ehrenreiter
 -------------------

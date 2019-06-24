@@ -1,0 +1,324 @@
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Lab 1: Nutanix Technology Überblick &mdash; Nutanix Technology Bootcamp  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Zugang zur Lab Umgebung" href="../Zugang/zugang.html" />
+ 
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #024DA1" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Nutanix Technology Bootcamp
+          
+
+          
+            
+            <img src="../_static/Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">BootCamp Infos</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Trainer/trainer.html">Ihre heutigen Trainer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Trainer/trainer.html#andreas-ehrenreiter">Andreas Ehrenreiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Trainer/trainer.html#martin-stenke">Martin Stenke</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Zugang/zugang.html">Zugang zur Lab Umgebung</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Zugang/zugang.html#zugangs-ubersicht">Zugangs-Übersicht</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Zugang/zugang.html#pulse-secure-vpn-client-empfohlen">Pulse Secure VPN Client (empfohlen)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Zugang/zugang.html#parallels-vdi-zugang-optional">Parallels VDI Zugang (optional)</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Labs</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lab 1: Nutanix Technology Überblick</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#prism-element">Prism Element</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#prism-element-ui-review">Prism Element UI Review</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nutanix Technology Bootcamp</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Lab 1: Nutanix Technology Überblick</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Lab1/lab1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="lab-1-nutanix-technology-uberblick">
+<h1>Lab 1: Nutanix Technology Überblick<a class="headerlink" href="#lab-1-nutanix-technology-uberblick" title="Permalink to this headline">¶</a></h1>
+<p><strong>In diesem Lab werden Sie Prism Element kennenlernen und mit den FUnktionen und der Navigationen vertraut. Sie werden Prism nutzen um typische Cluster Administrations Aufgaben, wie etwa Storage und Netzwerk, durchzuführen. Sie werden auch einfache VM Deployment und Verwaltungsaufgaben mit Prism und AHV erlernen. Zu guter Letzt werden Sie VM Data Protection inkl. Snapshots und Replikation erkunden.</strong></p>
+<div class="section" id="prism-element">
+<h2>Prism Element<a class="headerlink" href="#prism-element" title="Permalink to this headline">¶</a></h2>
+<p>The Prism service provides the web UI for managing Nutanix clusters and runs on every Controller VM (CVM). This local Prism service, referred to Prism Element, can be accessed via the IP of any individual CVM, or via the virtual IP for the cluster, which will redirect to the current Prism leader.</p>
+<ol class="arabic">
+<li><p>Open https://&lt;<em>NUTANIX-CLUSTER-IP</em>&gt;:9440 in a new browser tab.</p></li>
+<li><p>Log in using the following credentials:</p>
+<ul class="simple">
+<li><p><strong>Username</strong> - admin</p></li>
+<li><p><strong>Password</strong> - <em>HPOC Password</em></p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_01.png" src="../_images/nutanix_tech_overview_01.png" />
+</div>
+</li>
+<li><p>After you log in to Prism Element, familiarize yourself with the Prism UI. Explore the information on the <strong>Home</strong> screen, as well as the other screens.</p></li>
+<li><p>Review the Home screen, and identify the following items:</p>
+<ul class="simple">
+<li><p>Hypervisor</p></li>
+<li><p>Version</p></li>
+<li><p>Hardware Model</p></li>
+<li><p>Health</p></li>
+<li><p>VM Summary</p></li>
+<li><p>Warning Alerts</p></li>
+<li><p>Data Resiliency Status</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_02.png" src="../_images/nutanix_tech_overview_02.png" />
+</div>
+</li>
+<li><p>Review the UI navigation options.</p>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_03.png" src="../_images/nutanix_tech_overview_03.png" />
+</div>
+</li>
+<li><p>Examine the cluster hardware under <strong>Prism &gt; Hardware</strong>, click <strong>Hardware</strong>, then click <strong>Diagram</strong>.</p></li>
+<li><p>Review the hardware summary information:</p>
+<ul class="simple">
+<li><p>Blocks</p></li>
+<li><p>Hosts</p></li>
+<li><p>Memory</p></li>
+<li><p>CPU</p></li>
+<li><p>Disks</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_04.png" src="../_images/nutanix_tech_overview_04.png" />
+</div>
+</li>
+<li><p>Review the other sections, and do a quick walk through:</p>
+<ul class="simple">
+<li><p>VM</p></li>
+<li><p>Health</p></li>
+<li><p>Network</p></li>
+<li><p>Data Protection</p></li>
+<li><p>Storage</p></li>
+<li><p>Alerts</p></li>
+<li><p>Etc.</p></li>
+</ul>
+</li>
+<li><p>Review other sections of the Prism UI</p>
+<ul class="simple">
+<li><p>Health <a href="#id1"><span class="problematic" id="id2">:fa:`heartbeat`</span></a></p></li>
+<li><p>Alarms <a href="#id3"><span class="problematic" id="id4">:fa:`bell`</span></a></p></li>
+<li><p>Tasks <a href="#id5"><span class="problematic" id="id6">:fa:`circle-o`</span></a></p></li>
+<li><p>Search <a href="#id7"><span class="problematic" id="id8">:fa:`search`</span></a></p></li>
+<li><p>Help <a href="#id9"><span class="problematic" id="id10">:fa:`question`</span></a></p></li>
+<li><p>Configuration <a href="#id11"><span class="problematic" id="id12">:fa:`cog`</span></a></p></li>
+<li><p>User <a href="#id13"><span class="problematic" id="id14">:fa:`user`</span></a></p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_05.png" src="../_images/nutanix_tech_overview_05.png" />
+</div>
+</li>
+</ol>
+<div class="section" id="prism-element-ui-review">
+<h3>Prism Element UI Review<a class="headerlink" href="#prism-element-ui-review" title="Permalink to this headline">¶</a></h3>
+<p>Where would you locate the version of AOS you are running?</p>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_06.png" src="../_images/nutanix_tech_overview_06.png" />
+</div>
+<p>You can do this by clicking on the <strong>User</strong> drop down <a href="#id15"><span class="problematic" id="id16">:fa:`user`</span></a>, and clicking <strong>About Nutanix</strong>.</p>
+<p>How would you get to the following screen to view a summary of the number of hosts (or nodes) and the resource capacity and current utilization?</p>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_07.png" src="../_images/nutanix_tech_overview_07.png" />
+</div>
+<p>In <strong>Prism &gt; Hardware</strong>, click <strong>Hardware</strong>, then click <strong>Table</strong>.</p>
+<p>How would you get the following screen to see the health of your cluster?</p>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_08.png" src="../_images/nutanix_tech_overview_08.png" />
+</div>
+<p>In <strong>Prism &gt; Health</strong>, click <strong>Health</strong>, then click <strong>Summary</strong> in the right pane.</p>
+<p>What page would show you the latest activity in the system? On this page, you can monitor the progress of any task and keep track of what has been done in the past using time stamps. Can you figure out two different ways to get there?</p>
+<div class="figure align-default">
+<img alt="../_images/nutanix_tech_overview_09.png" src="../_images/nutanix_tech_overview_09.png" />
+</div>
+<p>Browse to <strong>Prism &gt; Tasks</strong> and click <strong>Tasks</strong>, or click the <a href="#id17"><span class="problematic" id="id18">:fa:`circle-o`</span></a> icon in the toolbar.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../Zugang/zugang.html" class="btn btn-neutral float-left" title="Zugang zur Lab Umgebung" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Nutanix Germany GmbH | 
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
