@@ -4,7 +4,7 @@
 Lab 4: Bereitstellen von Workloads
 ----------------------------------
 
-Aus Prism Element können neben dem reinen Storage & Netzwerk Management ebenfalls VMs erstellt, verwaltet und überwacht werden.
+**Aus Prism Element können neben dem reinen Storage & Netzwerk Management ebenfalls VMs erstellt, verwaltet und überwacht werden.**
 
 Image Service
 +++++++++++++

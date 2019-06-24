@@ -3,7 +3,7 @@
 ------------------------------
 Lab 5: Verwalten von Workloads
 ------------------------------
-Jetzt da wir einige VMs bereits ausgerollt haben, lassen Sie uns anhand dieser ein paar VM Verwaltungsmöglichkeiten mit AHV (Power Aktionen, Klonen und Migration) erkunden.
+**Jetzt da wir einige VMs bereits ausgerollt haben, lassen Sie uns anhand dieser ein paar VM Verwaltungsmöglichkeiten mit AHV (Power Aktionen, Klonen und Migration) erkunden.**
 
 Power Aktionen und Konsolen Zugang
 ++++++++++++++++++++++++++++++++++

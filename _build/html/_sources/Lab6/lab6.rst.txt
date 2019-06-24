@@ -6,7 +6,7 @@ Lab 6: Data Protection
 
 Nutanix bietet die Möglichkeit VM / vDisk-level basierte Storage Snapshots anzulegen. Protection Domains (PDs) sind ein Konstrukt um VM's zu gruppieren und darauf Snapshots und Replikations-Policies anzuwenden.
 
-In diesem Lab werden Sie Prism Element nutzen um VM Snapshots zu erstellen und VM's aus diesen Snapshots wiederherzustellen, sowie eine Protection Domain für Ihre VMs anzulegen.
+**In diesem Lab werden Sie Prism Element nutzen um VM Snapshots zu erstellen und VM's aus diesen Snapshots wiederherzustellen, sowie eine Protection Domain für Ihre VMs anzulegen.**
 
 
 VM Snapshots

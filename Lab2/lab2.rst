@@ -4,7 +4,7 @@
 Lab 2: Storage Konfiguration
 ----------------------------
 
-In diesem Lab werden Sie mit Prism Element basis Storage Container Operationen durchführen.
+**In diesem Lab werden Sie mit Prism Element basis Storage Container Operationen durchführen.**
 
 Distributed Storage Fabric
 ++++++++++++++++++++++++++

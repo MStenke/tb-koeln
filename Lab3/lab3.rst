@@ -3,7 +3,7 @@
 -----------------------------
 Lab 3: Netzwerk Konfiguration
 -----------------------------
-Lernen Sie wie Sie mit Prism Netzwerk-Konnektivität im Cluster konfigurieren können. Die Netzwerke die Sie im folgenden erstellen, erlauben eine VM Konnektivität durch das Zuweisen der entsprechenden Netzwerke an die jeweiligen VM NIC's.
+**Lernen Sie wie Sie mit Prism Netzwerk-Konnektivität im Cluster konfigurieren können. Die Netzwerke die Sie im folgenden erstellen, erlauben eine VM Konnektivität durch das Zuweisen der entsprechenden Netzwerke an die jeweiligen VM NIC's.**
 
 AHV Netzwerk-Grundlagen
 +++++++++++++++++++++++

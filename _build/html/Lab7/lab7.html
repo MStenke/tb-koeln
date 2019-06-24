@@ -224,7 +224,7 @@
             
   <div class="section" id="lab-7-prism-central">
 <h1>Lab 7: Prism Central<a class="headerlink" href="#lab-7-prism-central" title="Permalink to this headline">¶</a></h1>
-<p>Erfahren Sie von Prism Central’s Multi Cluster Verwaltung, Suche, Überwachung und Ressourcen Planung welche Ihnen dabei hilft Engpässe zu vermeiden und zukünftiges Wachstum akkurat planen zu können. Nachdem Sie in Prism Central eingeloggt sind, machen Sie sich zunächst mit der Prism Central Oberfläche vertraut, erkunden Sie die Informationen auf dem Dashboard und den Sektionen im Hauptmenü auf der linken oberen Seite.</p>
+<p><strong>Erfahren Sie von Prism Central’s Multi Cluster Verwaltung, Suche, Überwachung und Ressourcen Planung welche Ihnen dabei hilft Engpässe zu vermeiden und zukünftiges Wachstum akkurat planen zu können. Nachdem Sie in Prism Central eingeloggt sind, machen Sie sich zunächst mit der Prism Central Oberfläche vertraut, erkunden Sie die Informationen auf dem Dashboard und den Sektionen im Hauptmenü auf der linken oberen Seite.</strong></p>
 <div class="section" id="suchfunktion">
 <h2>Suchfunktion<a class="headerlink" href="#suchfunktion" title="Permalink to this headline">¶</a></h2>
 <p>Die Prism Central Suchfunktion hilft dabei Probleme (oder auch Dokumentation) schneller identifizieren und finden zu können. Anhand ein paar einfacher Suchabfragen können die gewünschten Informationen direkt über die zentrale Suche gefunden werden - ohne langwierig in der einer Menüstruktur suchen zu müssen. Klicken Sie auf das <strong>Help Icon</strong> oben rechts in der Menüleiste und dann auf <strong>Learn about search</strong> um die umfangreichen Suchparameter einzusehen.</p>
@@ -254,13 +254,13 @@
 <p>Prism Central bietet Ihnen die Möglichkeit historische Auswertungen Ihrer Umgebung zu generieren. Solche Reports können u.A. Ressourcen Auslastung, ungewöhnliches VM Verhalten und andere wertvolle operationale Einblicke enthalten.</p>
 <ol class="arabic">
 <li><p>In <strong>Prism Central Hauptemnü &gt; Operations &gt; Reports</strong>.</p></li>
-<li><p>Testen Sie den “Cluster   Efficiency   Summary”   oder den “Environment   Summary” Report.   Wählen Sie einen der beiden Reports aus und wählen Sie dann <strong>Run</strong> von dem <strong>Actions Dropdown Menü</strong>.</p></li>
+<li><p>Testen Sie den <strong>Cluster   Efficiency   Summary**</strong>   oder den <strong>Environment   Summary</strong> Report.   Wählen Sie einen der beiden Reports aus und wählen Sie dann <strong>Run</strong> von dem <strong>Actions Dropdown Menü</strong>.</p></li>
 <li><p>Als Nächstes füllen Sie die folgenden Felder aus und klicken auf <strong>Run</strong>:</p>
 <ul class="simple">
 <li><p><strong>Report instance Name</strong> - <em>Initialen</em>-BeispielReport</p></li>
 <li><p><strong>Time Period for Report</strong> - Last 24 Hours</p></li>
 <li><p><strong>Report Format</strong> – PDF / CSV checked</p></li>
-<li><p><strong>Recipient Format / Email Report</strong> - diese Option wird in diesem Lab nicht verwendet.</p></li>
+<li><p><strong>Recipient Format / Email Report</strong> - diese Option wird in diesem Lab nicht verwendet, bietet Ihnen generall aber bequem die Möglichkeit diese Reports regelmäßig per Email zu erhalten.</p></li>
 </ul>
 <blockquote>
 <div><div class="figure align-default">
@@ -281,7 +281,7 @@
 <li><p>Im <strong>Prism Central Menu &gt; Operations &gt; Planning &gt; Capacity Runway</strong>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Die <strong>Runway Summary</strong> zeigt die übrigen Tage an, bis das CLuster in der jeweiligen Kategorie ans Limit läuft. Wie lange dauert es bis das aktuelle Cluster Memory, CPU oder Storage seitig in einen Engpass gerät? Hier ein Beispiel wie es aussehen könnte:</p>
+<p>Die <strong>Runway Summary</strong> zeigt die übrigen Tage an, bis das Cluster in der jeweiligen Kategorie ans Limit läuft. Wie lange dauert es bis das aktuelle Cluster Memory, CPU oder Storage seitig in einen Engpass gerät? Hier ein Beispiel wie es aussehen könnte:</p>
 <div class="figure align-default">
 <img alt="../_images/lab7-5.png" src="../_images/lab7-5.png" />
 </div>
@@ -349,10 +349,10 @@
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Experimentieren Sie gerne ein wenig mit weiterem Workload und sehen Sie welche Workload Veränderungen weitere Auswirkungen auf die <strong>Runway</strong> und die <strong>Resource Recommendation</strong> haben, z.B.  fügen sie weiter 150 VDI Nutzer in 3 Monaten hinzu, etc.</p>
+<p>Experimentieren Sie gerne ein wenig mit weiterem Workload und sehen Sie welche Workload Veränderungen weitere Auswirkungen auf die <strong>Runway</strong> und die <strong>Resource Recommendation</strong> haben, z.B.  fügen sie weitere 150 VDI Nutzer in 3 Monaten hinzu, etc.</p>
 </div>
 </li>
-<li><p>Generieren Sie ein <strong>PDF Report</strong> um detailierte Kapazitäts-Planungs-Informationen zu erhalten, die als Grundlage für weitere Workload Planungen verwendet werden können.</p>
+<li><p>Generieren Sie ein <strong>PDF Report</strong> um detailierte Kapazitäts-Planungs-Informationen zu erhalten die als Grundlage für weitere Workload Planungen verwendet werden können.</p>
 <div class="figure align-default">
 <img alt="../_images/lab7-9.png" src="../_images/lab7-9.png" />
 </div>
@@ -361,10 +361,10 @@
 </div>
 <div class="section" id="zusammenfassung">
 <h2>Zusammenfassung<a class="headerlink" href="#zusammenfassung" title="Permalink to this headline">¶</a></h2>
-<p>Die Prism Central Report Funktionalität bietet Ihnen die Möglichkeit Auswertung, die aktuelle und historische Daten umfassen, nach Ihren zeitlichen Vorgaben bequem regelmäßig per E-Mail zu empfangen. Die <strong>Capacity Runway</strong> Ansicht in dem Planungs-Dashboard zeigt &amp; aggregiert kombinierte <strong>Resource Runway</strong> Information für alle registrierten Cluster an. Die <strong>Scenario View</strong> Ansicht in dem <strong>Planning Dashboard</strong> eröffnet Ihnen die Möglichkeit “What If” Szenarien für zukünftige Workloads (nach Ihren Vorgaben) zu evaluieren, um so zukünftigen Ressourcenbedarf vorrauszuplanen.</p>
+<p>Die <strong>Prism Central Reporting</strong> Funktionalität bietet Ihnen die Möglichkeit Auswertung, die aktuelle und historische Daten umfassen, nach Ihren zeitlichen Vorgaben bequem regelmäßig per E-Mail zu empfangen. Die <strong>Capacity Runway</strong> Ansicht in dem Planungs-Dashboard zeigt &amp; aggregiert kombinierte <strong>Resource Runway</strong> Information für alle registrierten Cluster an. Die <strong>Scenario View</strong> Ansicht in dem <strong>Planning Dashboard</strong> eröffnet Ihnen die Möglichkeit <strong>“What If”</strong> Szenarien für zukünftige Workloads (nach Ihren Vorgaben) zu evaluieren, um so zukünftigen Ressourcenbedarf vorrauszuplanen.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Ein paar der vorgestellten Funktionen benötigen eine <strong>Prism Central PRO Lizenz</strong>. Und auch darüber hinaus gibt es noch weitere interessante Mehrwerte die Nutanix mit Prism Central erbringen kann, so kommt z.B. Machine Learning zum EInsatz (<strong>Nutanix X-Fit</strong>) um <strong>Anomalie Erkennung</strong> oder auch <strong>Automatisierung von Routine Tasks mit X-Play</strong> anzugehen, etc.</p>
+<p>Ein paar der vorgestellten Funktionen benötigen eine <strong>Prism Central PRO Lizenz</strong>. Und auch darüber hinaus gibt es noch weitere interessante Mehrwerte die Nutanix mit Prism Central &amp; Prism Pro erbringen kann, so kommt z.B. Machine Learning zum Einsatz (<strong>Nutanix X-Fit</strong>) um <strong>Anomalie Erkennung</strong> oder auch <strong>Automatisierung von Routine Tasks mit X-Play</strong> anzugehen, etc.</p>
 </div>
 </div>
 </div>

@@ -4,7 +4,7 @@
 Lab 1: Überblick
 ----------------
 
-**In diesem Lab lernen Sie Prism Element kennen und werden mit dessen Funktionen und der Benutzerführung vertraut. Sie werden Prism Element nutzen um Basis Cluster Administrations-Aufgaben (inkl. Storage und Netzwerk Verwaltung) sowie Basis VM Deployments und Management Aufgaben mit Prism und AHV durchzuführen. Zuletzt werden Sie VM Data Protection  Optionen wie Snapshots und Replikation erkunden.**
+**In diesem Lab lernen Sie Prism Element kennen und werden mit dessen Funktionen und der Benutzerführung vertraut.**
 
 Prism Element
 +++++++++++++

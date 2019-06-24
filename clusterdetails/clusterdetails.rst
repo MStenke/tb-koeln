@@ -71,9 +71,6 @@ Infrastruktur IP's
    * - **iSCSI Data Services IP**
      - 10.42.31.38
 
-.. note::
-  Da Infrastruktur Test, wie Nutanix Software oder Hypervisor Updates im Vorfeld ausgeschlossen wurden, wurden diese bereits auf den jeweils aktuellen Stand gebracht. Sind diesbzgl. dennoch Test's gewünscht bitte Rückmeldung geben, sodass dies gesondert arrangiert werden kann.
-
 
 Virtuelle Maschienen
 ++++++++++++++++++++
