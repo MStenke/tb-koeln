@@ -4,25 +4,19 @@
 Ihre Drill Instructor
 ---------------------
 
-Ihre beiden heutigen *Drill Instructor* führen Sie durch den Tag! 
+Ihr heutiger Nutanix *Drill Instructor* führt Sie durch den Tag! 
 
 .. figure:: images/bootcamp.png
 
-Nutzen Sie die Chance und stellen uns Fragen in den Bauch!
+Nutzen Sie die Chance und stellen mir Fragen in den Bauch!
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40
    :header-rows: 1
 
-   * - **Andreas Ehrenreiter**
-     - **Martin Stenke**
-   * - .. figure:: images/AEhrenreiter2.png
-     - .. figure:: images/MStenke.png
-   * - **Systems Engineer**
-     - **Systems Engineer**
-   * - München, Bayern
-     - Leonberg, Baden-Wuerttemberg
-   * - Seit Februar 2006 bei Nutanix
-     - Seit Dezember 2018 bei Nutanix
+   * - **Dipl.-Ing. Günter Baumgart**
+   * - .. figure:: images/Guenter_Baumgart.jpg
+   * - **Senior Systems Engineerr**
+   * - Essen, Nordrhein-Westfalen
+   * - Seit September 2018 bei Nutanix
    * - *Liebt den Geruch von ge"move"ten" VM's!*
-     - *Möge AHV mit dir sein!*
