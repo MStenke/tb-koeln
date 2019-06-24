@@ -1,7 +1,7 @@
 .. trainer:
 
 ---------------------
-Ihre Drill Instructor
+Ihr Drill Instructor
 ---------------------
 
 Ihr heutiger Nutanix *Drill Instructor* führt Sie durch den Tag! 
