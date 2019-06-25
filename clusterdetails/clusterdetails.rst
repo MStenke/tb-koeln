@@ -55,9 +55,9 @@ Infrastruktur IP's
      - 10.42.81.27
      - 10.42.81.35
    * - **Position D**
-     - 10.42.81.32
-     - 10.42.81.28
-     - 10.42.81.36
+     - xx.xx.xx.xx
+     - xx.xx.xx.xx
+     - xx.xx.xx.xx
 
 
 .. list-table::
