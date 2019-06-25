@@ -4,7 +4,7 @@
 Lab 1: Überblick
 ----------------
 
-**In diesem Lab lernen Sie Prism Element kennen und werden mit dessen Funktionen und der Benutzerführung vertraut.**
+**In diesem Lab lernen Sie Prism Element genauer kennen und werden mit dessen Funktionen und der Benutzerführung vertraut gemacht.**
 
 Prism Element
 +++++++++++++
