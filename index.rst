@@ -35,13 +35,13 @@ Dieses Nutanix Technology BootCamp Workbook führt Sie Schritt für Schritt durc
 
 Der Bootcamp Workshop besteht primär aus zwei Hauptbestandteilen:
 
-Vomittags:
-  Einen generellen Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur.
+Teil 1:
+  Genereller Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur.
 
-Nachmittags:
-  Nach dem Mittagessen beginnen Sie mit dem praktischen Teil und lernen anhand der einzelnen Lab's Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur praktisch kennen.
+Teil 2:
+  Praxisteil: Hier lernen Sie anhand einzelner Labs Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur kennen.
 
 **Interesse geweckt? Dann nichts wie los!**
 
 .. note::
-   Für die praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammen zu finden und die Labs gemeinsam zu durchlaufen.
+   Für den praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammen zu finden und die Labs gemeinsam zu durchzuführen.
