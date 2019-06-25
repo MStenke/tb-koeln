@@ -83,19 +83,19 @@ Wie würden Sie zu der folgenden Ansicht gelangen, die Ihnen eine Übersicht üb
 
 .. figure:: images/nutanix_tech_overview_07.png
 
-(In **Prism Element > Home**, Klick **Hardware**, dann auf **Table**).
+(In **Prism Element > Home**, klick **Hardware**, dann auf **Table**).
 
 Finden Sie die Stelle, die Ihnen den folgenden Screenshot mit den **Health-Informationen** zu diesem Cluster zeigt!
 
 .. figure:: images/nutanix_tech_overview_08.png
 
-(In **Prism > Home**, Klick **Health**, dann Klick **Summary** in der rechten Spalte.)
+(In **Prism > Home**, klick **Health**, dann klick **Summary** in der rechten Spalte.)
 
 Finden Sie die Site, die Ihnen die **letzte Aktivität** des Systems anzeigt! Auf dieser Seite können Sie den Fortschritt aller Tasks einsehen und erkennen welche Tasks in der Vergangenheit gelaufen sind. Kennen Sie beide Wege um dorthin zu gelangen?
 
 .. figure:: images/nutanix_tech_overview_09.png
 
-(In **Prism > Home**, Klick auf **Tasks** oder klicken Sie auf das **"Kreis-Symbol"** in der oberen Toolbar und dann auf **View All Tasks***.
+(In **Prism > Home**, klick auf **Tasks** oder klicken Sie auf das **"Kreis-Symbol"** in der oberen Toolbar und dann auf **View All Tasks***.
 
 Zusammenfassung
 +++++++++++++++
