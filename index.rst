@@ -44,4 +44,4 @@ Teil 2:
 **Interesse geweckt? Dann nichts wie los!**
 
 .. note::
-   Für den praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammen zu finden und die Labs gemeinsam zu durchzuführen.
+   Für den praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammenzufinden und die Labs gemeinsam durchzuführen.
