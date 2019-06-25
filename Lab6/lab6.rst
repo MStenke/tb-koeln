@@ -12,7 +12,7 @@ Nutanix bietet die Möglichkeit VM / vDisk-level basierte Storage Snapshots anzu
 VM Snapshots
 ++++++++++++
 
-#. In **Prism Element > VM > Table**, wählen Sie Ihre *Initialen*-**Linux_VM** VM.
+#. In **Prism Element > VM > Table** wählen Sie Ihre *Initialen*-**Linux_VM** VM.
 
 #. Wenn die VM angeschaltet sein sollte, führen sie eine **Guest Shutdown** Power Aktion durch.
 
