@@ -41,7 +41,7 @@ Teil 1:
 Teil 2:
   Praxisteil: Hier lernen Sie anhand einzelner Labs Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur kennen.
 
-**Interesse geweckt? Dann nichts wie los!**
+**Haben wir Ihr Interesse geweckt? Dann lassen Sie uns beginnen!**
 
 .. note::
    Für den praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammenzufinden und die Labs gemeinsam durchzuführen.
