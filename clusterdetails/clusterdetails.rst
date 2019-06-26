@@ -29,7 +29,7 @@ Cluster Hardware Details
      - 23,04 TB (6 x 3,84 TB) je Node | 92,16 TB im Cluster
 
 .. note::
-  Bedenken Sie bitte, dass diese Technology-Bootcamp-Testumgebung zum einen nicht auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience durchführen.
+  Bedenken Sie bitte, dass diese Technology-Bootcamp-Testumgebung zum einen nicht auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience testen.
 
 Infrastruktur IPs
 +++++++++++++
