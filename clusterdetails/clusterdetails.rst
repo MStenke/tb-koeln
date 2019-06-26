@@ -7,7 +7,7 @@ Bootcamp Cluster Details
 Cluster Hardware Details
 ++++++++++++++++++++++++
 
-**Hardware Modell: NX-3060-G5**
+**Hardware Modell: NX-3060-G5 (All Flash)**
 
 .. figure:: images/cluster3060g5.png
 
@@ -20,13 +20,13 @@ Cluster Hardware Details
    * - **CPU Modell**
      - Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
    * - **CPU Core**
-     - 24 Core pro Node / 96 Core pro Cluster
+     - 24 Core je Node | 96 Cores im Cluster
    * - **CPU Ghz**
-     - 53 Ghz pro Node / 212 Ghz pro Cluster
+     - 53 GHz je Node  | 212 GHz im Cluster
    * - **Arbeitsspeicher**
-     - 256 GB pro Node / 1024 GB pro Cluster
+     - 256 GB je Node  | 1.024 GB im Cluster
    * - **SSD**
-     - 4800 GB pro Node / 19200 GB pro Cluster
+     - 23,04 TB (6 x 3,84 TB) je Node | 92,16 TB im Cluster
 
 .. note::
   Bedenken Sie bitte, dass diese Technology-Bootcamp-Testumgebung zum einen nicht auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience durchführen.
