@@ -63,7 +63,7 @@ Infrastruktur IPs
    :widths: 20 10
    :header-rows: 1
 
-   * - Diensts
+   * - Services
      - IP-Adressen
    * - **Virtuelle IP Adresse Cluster**
      - 10.42.81.37
