@@ -17,15 +17,15 @@ Cluster Hardware Details
 
    * - Eigenschaft
      - Ausstattung
-   * - **CPU Modell**
+   * - **CPU-Modell**
      - Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
-   * - **CPU Core**
+   * - **CPU-Cores**
      - 24 Core je Node | 96 Cores im Cluster
-   * - **CPU Ghz**
+   * - **CPU-Taktrate**
      - 53 GHz je Node  | 212 GHz im Cluster
    * - **Arbeitsspeicher**
      - 256 GB je Node  | 1.024 GB im Cluster
-   * - **SSD**
+   * - **SSD-Kapazität**
      - 23,04 TB (6 x 3,84 TB) je Node | 92,16 TB im Cluster
 
 .. note::
@@ -55,10 +55,9 @@ Infrastruktur IPs
      - 10.42.81.27
      - 10.42.81.35
    * - **Position D**
-     - xx.xx.xx.xx
-     - xx.xx.xx.xx
-     - xx.xx.xx.xx
-
+     - 10.42.81.32
+     - 10.42.81.28
+     - 10.42.81.36
 
 .. list-table::
    :widths: 20 10
