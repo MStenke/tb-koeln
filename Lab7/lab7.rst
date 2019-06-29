@@ -46,7 +46,7 @@ Prism Central bietet Ihnen die Möglichkeit historische Auswertungen bzgl. Ihrer
 
 Capacity Planning
 ++++++++++++++++++
-Nutzen Sie **Prism Central** um **Capacity Plannings (Kapazitäts-Planungen)** durchzuführen. Hierbei werden Ihnen Informationen über die Auslastung Ihres Clusters bzw. Ihrer Umgebung generiert weiter können Ihr System auch anweisen, Ihnen automatisch Handlungsempfehlungen im Hinblick auf ungeplante Zusatzbelastungen zu erstellen. 
+Nutzen Sie **Prism Central** um **Capacity Plannings (Kapazitäts-Planungen)** durchzuführen. Hierbei werden Ihnen Informationen über die Auslastung Ihres Clusters bzw. Ihrer Umgebung generiert. Weiter können Sie Ihr System auch anweisen, Ihnen automatisch Handlungsempfehlungen im Hinblick auf ungeplante Zusatzbelastungen zu erstellen. 
 
 
 1.  Im **Prism Central Menu > Operations > Planning > Capacity Runway**.
