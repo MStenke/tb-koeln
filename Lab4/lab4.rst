@@ -8,22 +8,22 @@ Lab 4: Bereitstellen von Workloads
 
 Image Service
 +++++++++++++
-Nutanix’s Image Service ist der Ort an welchem Sie Ihre Disk Images erstellen und ablegen können (ähnlich zu VMware Templates). Dieses Tool kann auch VM Disk Images in Formate konvertieren die AHV unterstützt. Der Image Service unterstützt raw, vhd, vhdx, vmdk, vdi, iso, qcow und  qcow2 Disk Formate.
+Nutanix’s Image Service ist der Ort an welchem Sie Ihre Disk Images erstellen und ablegen können (ähnlich zu VMware Templates). Dieses Tool kann auch VM-Disk-Images in Formate konvertieren die AHV unterstützt. Der Image Service unterstützt raw, vhd, vhdx, vmdk, vdi, iso, qcow und  qcow2 Disk-Formate.
 
 Schauen Sie sich in Prism Element die verfügbaren Images an, klicken Sie dafür auf das **Gear Icon** (*Zahnrad Symbol*) oben rechts und danach auf **Image Configuration**.
 
 .. figure:: images/imageconfiguration.png
 
-.. note:: Es wurden bereits ein paar Images / ISO's hochgeladen, sodass Sie direkt loslegen können. Beachten Sie, dass ein paar der Images in diesem Cluster von einer Prism Central Instanz verwaltet werden und daher hier nicht editiert werden können. Allerdings können Sie lokal auch weitere Images (per Datei oder URL) selbst hochladen.
+.. note:: Es wurden bereits einige Images und ISOs hochgeladen, sodass Sie direkt loslegen können. Beachten Sie, dass ein paar der Images in diesem Cluster von einer Prism Central Instanz verwaltet werden und daher hier nicht editiert werden können. Allerdings können Sie lokal auch weitere Images (per Datei oder URL) selbst hochladen.
 
 
-Bereitstellen einer Linux VM (Disk Image)
+Bereitstellen einer Linux-VM (Disk-Image)
 +++++++++++++++++++++++++++++++++++++++++
-In dieser Übung erstellen Sie eine CentOS VM von einem existierendem, vorinstalliertem Disk Image von dem Image Service. In vielen Umgebungen ist es üblich standardisierte, vorinstallierte Images für ein schnelles Bereitstellen von neuen VMs zu verwenden.
+In dieser Übung erstellen Sie eine CentOS-VM von einem existierenden, vorinstallierten Disk-Image von dem Image-Service. In vielen Umgebungen ist es üblich standardisierte, vorinstallierte Images für ein schnelles Bereitstellen von neuen VMs zu verwenden.
 
 1.  In **Prism Element**, klick auf **VM**, klick auf **Create VM**.
 2.	Füllen Sie die Eingabemasken wie folgt aus:
-    - **Name** - *Initialen*-LinuxVM
+    - **Name** : *Initialen*-LinuxVM
     - **Description** - (Optional) Beschreibung für Ihre VM.
     - **Timezone** – (UTC + 02:00) Europe / Berlin
     -	**vCPU(s)** - 1
