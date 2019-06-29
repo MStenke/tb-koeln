@@ -54,40 +54,40 @@ VM-Snapshots
 
 Wie vorher erwähnt, nutzt die Nutanix-Snapshot-Technologie das `redirect-on-write <https://nutanixbible.com/#anchor-book-of-acropolis-snapshots-and-clones>`_ Verfahren, welches ohne verkettete Snapshots auskommt und dadurch höchste Performance bietet.
 
-Protection Domains
+Protection-Domains
 ++++++++++++++++++
 
-#. Klicken Sie nun in **Prism Element > Data Protection > Table**, und klicken dann auf **+ Protection Domain > Async DR** um eine *Protection Domain (PD)* zu erstellen.
+#. Eine *Protection Domain (PD)* stellt eine logische Gruppierung von VM-Objekten dar, welche zeitgesteuert repliziert werden. Zur Erstellung einer PD klicken Sie nun **Prism Element > Data Protection > Table** und klicken dann auf **+ Protection Domain > Async DR**.
 
    .. note::
       Eine *synchrone Replikation* in Verbindung mit *Metro Availability* wird aktuell ausschließlich auf der Basis des VMware ESXi-Hypervisors unterstützt, wird aber zu einem späterem Zeitpunkt auch für AHV erwartet.
 
-#. Geben Sie nun einen Namen für die zu erstellende Protection Domain in das Formular ein und klicken auf **Create**.
+#. Geben Sie nun einen Namen für die zu erstellende *Protection-Domain* in das Formular ein und klicken auf **Create**.
 
 #. Suchen Sie nun durch *Filterung* oder durch *scrollen* die von Ihnen erstellten VMs im linken Teil des Fensters unter **Unprotected Entities** und wählen diese dann durch anklicken aus um sie in die PD aufzunehmen.  
 
-#. Klicken Sie nun auf **Protect Selected Entities** links unten im Fenster und warten bis die ausgewählten VMs im linken Feld des Fensters unter **Protected Entities** auftauchen.
+#. Klicken Sie nun auf **Protect Selected Entities** links unten im Fenster und warten bis die ausgewählten VMs im linken Feld des Fensters unter **Protected Entities** erscheinen.
 
     .. figure:: images/pd-entities.png
 
    Consistency-Groups erlauben es Ihnen mehrere VMs zu gruppieren um Snapshots zum gleichen Zeitpunkt aufnehmen zu können, da die VMsz.B. zur gleichen Anwendung gehören.
 
-   .. note:: Mit Nutanix-Snapshots können Anwendungskonsistente-Snapshots für unterstützte Betriebssysteme durchgeführt werden. Voraussetzung hierfür ist, dass die Nutanix-Guest-Tools (NGT) in den entsprechenden VMs installiert sind. Jede VM, die Anwendungskonsistente-Snapshots verwendet wird Teil ihrer eigenen Consistency Group.
+   .. note:: Mit Nutanix-Snapshots können Anwendungskonsistente-Snapshots für unterstützte Betriebssysteme durchgeführt werden. Voraussetzung hierfür ist, dass die Nutanix-Guest-Tools (NGT) in den entsprechenden VMs installiert sind.
 
 #. Klick Sie nun auf **Next**.
 
 #. Klick Sie bitte jetzt auf **New Schedule** um die *Recovery Point Objective (RPO)* sowie die *Retention Policy* zu definieren.
 
-#. Definieren Sie Ihre gewünschte Snapshot-Frequenz, indem Sie z.B. **Repeat every 1 hour(s)** einstellen. Hierdurch wird dann jede Stunde ein Snapshot ezeugt. Stellen Sie dann noch die Start-Time ein und klicken Sie im Anschgluss daran dann auf **Create Schedule** und dann auf **Close**.
+#. Definieren Sie Ihre gewünschte Snapshot-Frequenz, indem Sie z.B. **Repeat every 1 hour(s)** einstellen. Hierdurch wird dann jede Stunde ein Snapshot erzeugt. Stellen Sie dann noch die *Start-Time* ein und klicken im Anschluss daran dann auf **Create Schedule** und dann auf **Close**.
 
-   .. note:: AHV unterstützt heute schon NearSync Snapshots mit RPOs so niedrig wie mit 1 Minute.
+   .. note:: Sie können mit AHV unter Einsatz der *NearSync-Technologie* bereits heute schon einen RPO von einer Minute erreichen.
 
-   .. note:: Mehrere Schedules können für die gleiche PD angewendet werden, was es Ihnen erlaubt eine X Anzahl an Snapshots stündlich, täglich oder monatlich zu erzeugen und vorzuhalten.
+   .. note:: Sie können mehrere *Scheduler* für die gleiche *PD* verwenden, was Ihnen erlaubt eine beliebige Anzahl *X* an Snapshots entweder stündlich, täglich oder monatlich zu erzeugen oder vorzuhalten.
 
-#. Konfigurieren Sie eine Retention Policy (z.B. die letzten 5 Snapshots behalten)
+#. Sie können auch eine Retention Policy konfigurieren bei der z.B. die letzten 5 Snapshots erhalten bleiben.
 
    .. note::
-      Für Umgebungen bei denen Remote Nutanix Cluster angebunden wurden, lässt sich die Replikation einfach anhand der vorzuhaltenden Snapshots auf der Remote Seite definieren.
+      In Umgebungen, in denen ein Nutanix-Remote-Cluster betrieben wird, kann die Replikation auf der Remote Seite definiert werden und auch hierbei kann die Anzahl der vorzuhaltenden Snapshots entsprechend eingestellt werden.
 
       .. figure:: images/snapshot_02.png
 
@@ -95,7 +95,7 @@ Protection Domains
 
 #. Klick auf **Close** um das Lab abzuschließen.
 
-Und das war's auch schon! Sie haben nun erfolgreich die nativen Data Protection Optionen in Prism konfiguriert.
+Und das war's auch schon! Sie haben nun erfolgreich eine der nativen Data Protection Optionen in Prism-Element konfiguriert.
 
 Zusammenfassung
 +++++++++++++++
