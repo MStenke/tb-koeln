@@ -4,11 +4,11 @@
 Lab 7: Prism Central
 --------------------
 
-**Erfahren Sie von Prism Central's Multi Cluster Verwaltung, Suche, Überwachung und Ressourcen Planung welche Ihnen dabei hilft Engpässe zu vermeiden und zukünftiges Wachstum akkurat planen zu können. Nachdem Sie in Prism Central eingeloggt sind, machen Sie sich zunächst mit der Prism Central Oberfläche vertraut, erkunden Sie die Informationen auf dem Dashboard und den Sektionen im Hauptmenü auf der linken oberen Seite.**
+**In diesem Lab erfahren Sie nun einiges über die Prism Central Multi-Cluster-Verwaltung, die Suchfunktionalität, die Überwachung und Ressourcen Planung die Ihnen dabei hilft Engpässe zu vermeiden und zukünftiges Wachstum perfekt planen zu können**. Nachdem Sie sich in *Prism Central* eingeloggt haben, machen Sie sich zunächst mit der Oberfläche von Prism Central vertraut. Schauen Sie sich die Informationen auf dem Dashboard an und erkunden die einzelnen Unterpunkte des *Hauptmenüs* links oben in der Leiste über dem Dashboard.
 
 Suchfunktion
 ++++++++++++
-Die Prism Central Suchfunktion hilft dabei Probleme (oder auch Dokumentation) schneller identifizieren und finden zu können. Anhand ein paar einfacher Suchabfragen können die gewünschten Informationen direkt über die zentrale Suche gefunden werden - ohne langwierig in der einer Menüstruktur suchen zu müssen. Klicken Sie auf das **Help Icon** oben rechts in der Menüleiste und dann auf **Learn about search** um die umfangreichen Suchparameter einzusehen.
+Die Prism Central Suchfunktion hilft Ihnen dabei Probleme schnell zu indentifizieren und die entsprechende Dokumentation schneller auffinden zu können. Anhand ein paar einfacher Suchabfragen können die gewünschten Informationen direkt über die zentrale Suche gefunden werden ohne langwierig in irgendwelchen Menüstrukturen suchen zu müssen! Klicken Sie auf das **Help Icon** oben rechts in der Menüleiste und dann auf **Learn about search** um die umfangreichen Suchparameter einzusehen.
 
 .. figure:: images/lab7-1.png
 
@@ -16,72 +16,72 @@ Testen Sie ein paar Suchabfragen um mit der Syntax vertraut zu werden:
     - vm cpu > 1
     - vm mem > 2
     - vm iops > 50
-    - Hosts "cpu usage">95
+    - Hosts "cpu usage" > 95
     - etc.
 
-.. note:: Der *Hotkey* um die Suche zu aktivieren ist ein **Schrägstrich** bzw. das **"/"** Symbol welches von überall in der Prism Central Oberfläche verwendet werden kann. Klicken Sie auf das **Stern** Symbol um eine Suche zu speichern.
+.. note:: Der *Hotkey* um die Suche zu aktivieren ist ein **Schrägstrich (slash mark)** bzw. das **"/"** Symbol welches von überall in der Prism Central Oberfläche verwendet werden kann. Wenn Sie eine Suchanfrage erstellt haben und diese dann auch noch speichen möchten, dann klicken Sie einfach auf das **Stern** Symbol und die Suchanfrage wird im Hauptmenü gespeichert.
 
  .. figure:: images/lab7-2.png
 
 
 Reports
 +++++++
-Prism Central bietet Ihnen die Möglichkeit historische Auswertungen Ihrer Umgebung zu generieren. Solche Reports können u.A. Ressourcen Auslastung, ungewöhnliches VM Verhalten und andere wertvolle operationale Einblicke enthalten.
+Prism Central bietet Ihnen die Möglichkeit historische Auswertungen bzgl. Ihrer Umgebung zu generieren. Solche Reports können u. a. die Auslastung der Ressourcen, ungewöhnliches Verhalten von VMs und viel andere operationale Informationen und Ereignisse enthalten.
 
-1.  In **Prism Central Hauptemnü > Operations > Reports**.
-2.  Testen Sie den **Cluster   Efficiency   Summary****   oder den **Environment   Summary** Report.   Wählen Sie einen der beiden Reports aus und wählen Sie dann **Run** von dem **Actions Dropdown Menü**.
-3.  Als Nächstes füllen Sie die folgenden Felder aus und klicken auf **Run**:
+1.  Klicken Sie im Hauptmenü auf **Prism Central Hauptemnü > Operations > Reports**.
+2.  Testen Sie den Report **Cluster Efficiency Summary** oder den **Environment Summary** Report. Wählen Sie einen der beiden Reports aus und starten dann **Run** innerhalb des Dropdown-Menüs **Actions**.
+3.  Im nächsten Schritt füllen Sie die Felder des Formulars aus und klicken dann auf **Run**:
 
-    - **Report instance Name** - *Initialen*-BeispielReport
-    - **Time Period for Report** - Last 24 Hours
-    - **Report Format** – PDF / CSV checked
-    - **Recipient Format / Email Report** - diese Option wird in diesem Lab nicht verwendet, bietet Ihnen generall aber bequem die Möglichkeit diese Reports regelmäßig per Email zu erhalten.
+    - **Report instance Name** : *Initialen*-BeispielReport
+    - **Time Period for Report** : Last 24 Hours
+    - **Report Format** : Report Format auswählen (hier pdf-Format)
+    - **Email Report** : Diese Option wird in diesem Lab nicht verwendet, bietet Ihnen aber generall eine bequeme Möglichkeit dies Reports regelmäßig an eine eMail-Adresse senden zu lassen.
 
      .. figure:: images/lab7-3.png
 
-4.  Sobald der Report fertig ist, klicken Sie auf den Report und können die bereits ausgeführten Instanzen dieses Reports einsehen. Sie können nun Ihren Report als **PDF** oder als **CSV** Datei **herunterladen** und ansehen.
+4.  Klicken Sie nun auf den Report und anschließend unter Download auf pdf. Sie können sich nun Ihren Report als **PDF** bzw.  als **CSV** Datei **herunterladen** und anschauen.
 
 .. figure:: images/lab7-4.png
 
 Capacity Planning
 ++++++++++++++++++
-Nutzen Sie **Prism Central's Capacity Planning** (Kapazitäts-Planung) um mehr über Cluster Auslastungs-Planung und Empfehlungen zu erfahren.
+Nutzen Sie **Prism Central** um **Capacity Plannings (Kapazitäts-Planungen)** durchzuführen. Hierbei werden Ihnen Informationen über die Auslastung Ihres Clusters bzw. Ihrer Umgebung generiert weiter können Ihr System auch anweisen, Ihnen automatisch Handlungsempfehlungen im Hinblick auf ungeplante Zusatzbelastungen zu erstellen. 
 
 
 1.  Im **Prism Central Menu > Operations > Planning > Capacity Runway**.
 
-    .. note:: Die **Runway Summary** zeigt die übrigen Tage an, bis das Cluster in der jeweiligen Kategorie ans Limit läuft. Wie lange dauert es bis das aktuelle Cluster Memory, CPU oder Storage seitig in einen Engpass gerät? Hier ein Beispiel wie es aussehen könnte:
+    .. note:: Unter **Runway Summary** finden Sie Ihre an Prism Central angebundenen Cluster aufgelistet. Wenn Sie nun auf einen der Cluster klicken, bekommen Sie den Zeitraum in Tagen angezeigt bis der Cluster an sein Ressourcen-Limit läuft. D.h. wie lange dauert es noch bis der aktuelle Cluster-Memory, die CPU-Ressourcen oder Storageseitig das System in einen Engpass gerät? Hier nun ein Beispiel wie das ganze sich darstellen könnte:
 
         .. figure:: images/lab7-5.png
 
-3.  Wählen Sie das **Cluster** aus.
+3.  Wählen Sie den **Cluster** aus.
 
-    - Die **am meisten limitierte Ressource** is auf der linken Seite hervorgehoben.
-    - Klicken Sie **Storage**, **CPU** oder **Memory Runway** um das Diagramm für die Ressource anzuzeigen.
-    - Klicken Sie **Optimize   Resources** um eine Liste an empfohlenden Verwaltungs-Aufgaben für eine Ressourcen Reallokation anzusehen, etwa *Optimierung von Überprovisionierten VMs*, *Löschen von inaktiven VMs* oder *Hinzufügen von weiteren Ressourcen zu limitierten VMs*.
+    - Die **am meisten limitierte Ressource** wird auf der linken Seite hervorgehoben.
+    - Klicken Sie **Storage**, **CPU** oder **Memory Runway** um die entsprechenden Diagramme bzgl. der Ressourcen anzuzeigen.
+    - Klicken Sie auf **Optimize Resources** um eine Liste an empfohlenden Verwaltungs-Aufgaben für eine Ressourcen-Reallokation anzusehen, etwa *Optimierung von Überprovisionierten VMs*, *Löschen von inaktiven VMs* oder *Hinzufügen von weiteren Ressourcen zu limitierten VMs*.
 
         .. figure:: images/lab7-6.png
 
-4.  Schließen Sie die **Capacity Runway** Ansicht.
+4.  Schließen Sie die **Capacity Runway** Ansicht nun wieder.
 
 What If Planning
 ++++++++++++++++
-Wie planen Sie typischerweise ob und welchen Workload Sie zu Ihrer bestehenden Umgebung noch ergänzen können - wann laufen Sie durch den zusätzlichen Workload in Engpässe? Um diese Planungsaufgaben einfacher zu gestalten, bietet Prism Central eine sog. **What If Planning** Funktion an, die dabei hilft theoretische Planung von weiterem Workload auf Ihrer bestehenden Umgebung zu simulieren um zu schauen wie Sich Ihre Umgebung mit diesen neuen hypothetischen Workload verhält.
+Wie planen Sie typischerweise welchen Workload Sie in Ihrer bestehenden Umgebung noch ohne Probleme betreiben können und wie beantworten Sie die Frage, wann Sie durch solche zusätzlichen Workloads in betriebliche Engpässe hineinlaufen? Um diese komplizierten Planungsaufgaben einfacher zu gestalten, bietet Prism Central Ihnen eine sog. **What If Planning** Funktion an, die Ihnen dabei hilft theoretische Planung von zusätzlichem Workload auf Ihrer bestehenden Umgebung durchzuführen. Das System simuliert hierbei theoretische Workloads und verbindet sie dann mit den Belastungen durch die real existierenden Workloads in Ihrer Umgebung. Anschließend werden Ihnen dann diese synthetisch gewonnenen Ergebnisse zur Ihre Planungen zur Verfügung gestellt.
 
-1.  In **Prism Central Menu > Operations > Planning > Scenarios** dann auf **New Scenario** klicken.
+1.  Klicken Sie **Prism Central Menu > Operations > Planning > Scenarios** dann weiter auf **New Scenario**.
 2.  Als nächstes füllen Sie die folgenden Felder aus:
 
-    - **Cluster** - Wählen Sie Ihr Cluster aus.
-    - **Target** - 6 months
+    - **Cluster** : Wählen Sie Ihren Cluster aus.
+    - **Target** : 6 months
 
-3.	Jetzt lassen Sie uns **150 neue Citrix XenDesktop Anwender** hinzufügen. Klicken Sie auf **Add/Adjust** und fügen Sie die folgenden Felder wie folgt aus:
+3.	Jetzt fügen Sie **150 neue Citrix XenDesktop Anwender** hinzu. Klicken Sie auf **Add/Adjust** und füllen die folgenden Felder wie folgt aus:
 
-    - **Workload** – VDI
-    - **Vendor** - XenDesktop
-    - **User Type** - Power User
-    - **Provision Type** - Machine Creation Services
-    - **Number of Users** - 150
-    - **On** - One Month from today
+    - **Workload** : VDI
+    - **Vendor** : XenDesktop
+    - **User Type** : Power User
+    - **Provision Type** : Machine Creation Services
+    - **Number of Users** : 150
+    - **On** : One Month from today
 
 5.	Speichern Sie dieses **Scenario** und inspizieren Sie die **Runway Veränderungen** für *CPU*, *Memory* und *Storage*.
 
