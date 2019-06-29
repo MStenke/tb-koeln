@@ -35,7 +35,7 @@ Prism Central bietet Ihnen die Möglichkeit historische Auswertungen bzgl. Ihrer
     - **Report instance Name** : *Initialen*-BeispielReport
     - **Time Period for Report** : Last 24 Hours
     - **Report Format** : Report Format auswählen (hier pdf-Format)
-    - **Email Report** : Diese Option wird in diesem Lab nicht verwendet, bietet Ihnen aber generall eine bequeme Möglichkeit dies Reports regelmäßig an eine eMail-Adresse senden zu lassen.
+    - **Email Report** : Diese Option wird in diesem Lab nicht verwendet, bietet Ihnen aber generall eine bequeme Möglichkeit diese Reports regelmäßig an eine eMail-Adresse senden zu lassen.
 
      .. figure:: images/lab7-3.png
 
