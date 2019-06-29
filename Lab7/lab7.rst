@@ -5,6 +5,7 @@ Lab 7: Prism Central
 --------------------
 
 **In diesem Lab erfahren Sie nun einiges über die Prism Central Multi-Cluster-Verwaltung, die Suchfunktionalität, die Überwachung und Ressourcen Planung die Ihnen dabei hilft Engpässe zu vermeiden und zukünftiges Wachstum perfekt planen zu können**. 
+
 Nachdem Sie sich in *Prism Central* eingeloggt haben, machen Sie sich zunächst mit der Oberfläche von Prism Central vertraut. Schauen Sie sich die Informationen auf dem Dashboard an und erkunden die einzelnen Unterpunkte des *Hauptmenüs* links oben in der Leiste über dem Dashboard.
 
 Suchfunktion
@@ -51,7 +52,7 @@ Nutzen Sie **Prism Central** um **Capacity Plannings (Kapazitäts-Planungen)** d
 
 1.  Im **Prism Central Menu > Operations > Planning > Capacity Runway**.
 
-    .. note:: Unter **Runway Summary** finden Sie Ihre an Prism Central angebundenen Cluster aufgelistet. Wenn Sie nun auf einen der Cluster klicken, bekommen Sie den Zeitraum in Tagen angezeigt bis der Cluster an sein Ressourcen-Limit läuft. D.h. wie lange dauert es noch bis der aktuelle Cluster-Memory, die CPU-Ressourcen oder Storageseitig das System in einen Engpass gerät? Hier nun ein Beispiel wie das ganze sich darstellen könnte:
+    .. note:: Unter **Runway Summary** finden Sie Ihre an Prism Central angebundenen Cluster aufgelistet. Wenn Sie nun auf einen der Cluster klicken, bekommen Sie den Zeitraum in Tagen angezeigt bis der Cluster an sein Ressourcen-Limit läuft. D.h. wie lange dauert es noch bis der aktuelle Cluster-Memory, die CPU-Ressourcen oder storageseitig das System in einen Engpass gerät? Hier nun ein Beispiel wie das ganze sich darstellen könnte:
 
         .. figure:: images/lab7-5.png
 
