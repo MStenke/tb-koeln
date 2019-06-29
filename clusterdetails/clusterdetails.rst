@@ -9,7 +9,7 @@ Cluster Hardware Details
 
 **Hardware Modell: NX-3060-G5 (All Flash)**
 
-.. figure:: images/cluster3060g5.png
+.. figure:: images/cluster3060g5a.png
 
 .. list-table::
    :widths: 15 40
