@@ -44,23 +44,23 @@ In dieser Übung erstellen Sie eine CentOS-VM von einem existierenden, vorinstal
     - VLAN Name : *Initialen***-Netzwerk_IPAM** (Ihr zuvor angelegtes IPAM Netzwerk)
     - Speichern mit **Add**
     - VM speichern mit **Save**.
-    - **Filtern** Sie in der VM liste nach Ihrer soeben angelegten VM, **starten** Sie diese und öffnen Sie die **Konsole** (*Launch Console*).
+    - **Filtern** Sie in der VM-Liste nach Ihrer soeben angelegten VM, **starten** Sie diese und öffnen Sie die **Konsole** (*Launch Console*).
 
     .. figure:: images/centos7running.png
 
-    Wie Sie sehen ist die VM dank des vorgefertigten Disk Images direkt mit CentOS7 einsatzbereit. Schauen Sie sich auch unter **VM Details** die IP Adresse an welche mittels IPAM Service automatisch aus der von Ihnen definiertem IP Range zugewiesen wurde.
+    Wie Sie sehen ist die VM dank des vorgefertigten Disk-Images direkt mit CentOS7 einsatzbereit. Schauen Sie sich auch unter **VM Details** die IP-Adresse an, welche mittels IPAM-Service automatisch aus der von Ihnen definiertem IP-Range zugewiesen wurde.
 
 Bereitstellen einer Windows VM (ISO)
 ++++++++++++++++++++++++++++++++++++
-In dieser Übung werden Sie eine Windows Server VM anhand einer Windows-Installation ISO's erstellen.
+In dieser Übung werden Sie eine Windows Server VM anhand einer Windows-Installation ISOs erstellen.
 
-Um den VMs maximale IO Performance zur Verfügung zu stellen, benötigt AHV die Installation von paravirtualisierten Treibern in die Gast VM (ähnlich zu den VMware Tools). Insbesondere für Windows Gast VMs müssen diese Treiber zum Zeitpunkt der Installation geladen werden um die Disks für den Windows Installer bereitzustellen.
+Um den VMs maximale IO-Performance zur Verfügung zu stellen, benötigt AHV die Installation von paravirtualisierten Treibern in die Gast-VM (ähnlich wie bei den VMware-Tools). Insbesondere für Windows-Gast-VMs müssen diese Treiber zum Zeitpunkt der Installation geladen werden um die Disks für den Windows-Installer bereitzustellen.
 
-Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://portal.nutanix.com). Das Nutanix ISO Image mit den Treibern (VirtIO) wurde bereits auf den Image Service geladen.
+Nutanix validiert und verteilt diese Treiber via Nutanix Portal (http://portal.nutanix.com). Das Nutanix ISO-Image (NGT) mit den Treibern (VirtIO) wurde bereits in den Image-Service geladen.
 
 1.  In **Prism Element** > **VM** > **Table**, klick auf **+ Create VM**.
 
-2.  Füllen die die folgenden Felder aus und klicken Sie auf **Save**:
+2.  Füllen Sie nun die folgenden Felder aus und klicken dann auf **Save**:
 
     - **Name** : *Initialen*-WindowsVM
     - **Description** : (Optional) Beschreibung für Ihre VM.
@@ -73,7 +73,7 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
 
     - Wählen Sie das **Stift Symbol** neben **CDROM**
     - **Operation** : Clone from Image Service
-    - **Image** : Windows2016.iso
+    - **Image** : Windows2016.iso oder Windows2012R2.iso
     - Wählen Sie **Update**
 
     .. figure:: images/windowsvm-add-iso.png
@@ -99,7 +99,7 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
 
     .. figure:: images/createwindowsvm-add-virtio.png
 
-    .. note:: Dies sind die Nutanix VirtIO Treiber für die Gast VM.
+    .. note:: Dies sind die Nutanix-VirtIO-Treiber für die Gast-VM.
 
     - Wählen Sie **+ Add New NIC**
     - **VLAN Name** : Primary
@@ -107,24 +107,24 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
 
 3.  VM speichern mit **Save**.
 
-4.  **Filtern** Sie in der VM Liste nach Ihrer soeben angelegten Windows VM und **starten** Sie diese (*Power on*).
+4.  **Filtern** Sie in der VM-Liste nach Ihrer soeben angelegten Windows-VM und **starten** Sie diese (*Power on*).
 
-5.  Öffnen Sie die als nächstes die **Konsole** (*Launch Console*) um mit der VM interagieren zu können.
+5.  Öffnen Sie als nächstes die **Konsole** (*Launch Console*) um mit der VM interagieren zu können.
 
-6.  Durchlaufen Sie den Standard Windows Installations Prozess bis Sie zu dem Punkt der *Windows Installations Location* gelangen.
+6.  Durchlaufen Sie den Standard-Windows-Installations-Prozess bis Sie zu dem Punkt der *Windows Installations Location* gelangen.
 
    .. note:: Wählen Sie die *Windows Server 2016 Datacenter (Desktop Experience)* und *Custom: Install Windows only (advanced)* bei dem Setup Prozess aus.
 
 
-7.  Klicken Sie *Load Driver* und navigieren Sie zu der CD wo die Nutanix VirtIO Treiber geladen wurden.
+7.  Klicken Sie *Load Driver* und navigieren Sie zu der CD wo die Nutanix VirtIO-Treiber geladen wurden.
 
-8.  Durchsuchen Sie die CD und selektieren Sie das Verzeichnis welches mit der Windows OS Installations-Version übereinstimmt (*amd64* für 64 bit auswählen).
+8.  Durchsuchen Sie die CD und selektieren Sie das Verzeichnis welches mit der Windows-OS Installations-Version übereinstimmt (*amd64* für 64 bit auswählen).
 
     .. figure:: images/deploy_workloads_05.png
 
     .. figure:: images/deploy_workloads_06.png
 
-9.  Wählen Sie die drei angezeigten Nutanix Treiber aus (Halten Sie die *Ctrl* Taste gedrückt und selektieren Sie alle *drei zusammen*):
+9.  Wählen Sie die drei angezeigten Nutanix-Treiber aus (Halten Sie die *Ctrl* Taste gedrückt und selektieren Sie alle *drei zusammen*):
   - Balloon
   - Ethernet adapter
   - SCSI passthrough controller
@@ -137,25 +137,25 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
 
 12.  Selektieren Sie die Disk und fahren Sie mit dem normalen Installationsprozess fort.
 
-13.  Nachdem die Installation abgeschlossen ist, kann die Windows Installations ISO ungemounted werden and die zusätzliche CD-ROM welche für die Treiber benötigt wurde von der VM entfernt werden.
+13.  Nachdem die Installation abgeschlossen wurde, kann das Windows-Installations-ISO aus dem vCD-ROM entfernt werden. Weiter können Sie auch das ISO mit den Nutanix-VirtIO-Treibern später nach vollständiger Installation ebenfalls aus dem anderen vCD-ROM entfernen.
 
 .. note::
-    Für ESXi gilt:
-    Nachdem eine VM in vSphere erstellt wurde, erscheint diese in der Prism VM Liste. Andersherum ist es genauso, wenn eine VM in Prism erstellt wurde, so erscheint diese genauso in der VMware vSphere UI. Ein Beispiel davon sieht wie folgt:
+    Bei dem ESXi-Hypervisor würde gelten:
+    Nachdem eine VM in vSphere erstellt wird, erscheint diese in der Prism-VM-Liste. Andersherum würde es genau so sein: Wenn eine VM in Prism erstellt wurde, so erscheint diese auch in der vSphere UI. Das Beispiel hierzu sieht wie folgt aus:
 
     .. figure:: images/deploy_workloads_08.png
 
-14.  Nach der OS Installation können Sie die **Nutanix Guest Tools (NGT)** Installation durchführen. Klicken Sie in Prism Element auf die VM und klicken Sie unter der VM Liste auf **Manage Guest Tools > Enable Nutanix Guest Tools > Mount Guest Tools** und klicken Sie auf **Submit**.
+14.  Nach der OS-Installation können Sie die **Nutanix Guest Tools (NGT)** Installation durchführen. Klicken Sie in Prism Element auf die VM und klicken Sie unter der VM-Liste auf **Manage Guest Tools > Enable Nutanix Guest Tools > Mount Guest Tools** und klicken Sie auf **Submit**.
 
-    Dies wird die virtuelle CD-ROM verwenden um die NGT Installations ISO in die VM an zu binden. Die NGT enthalten die zuvor installierten VirtIO Treiber sowie weitere Dienste um *Self-Service File Restore* und Applikations-konsistente Snapshots (VSS) zu ermöglichen.
+    Nun steht Ihnen das NGT-Installations-ISO in der VM zur Verfügung. Das NGT-ISO enthält die zuvor installierten VirtIO-Treiber sowie weitere Dienste um *Self-Service File Restore* und Applikations-konsistente Snapshots (VSS) zu ermöglichen.
 
     .. figure:: images/NGT1.png
 
-15.  Kehren Sie zurück in die VM Konsole um die NGT Installation durch einen Klick auf die **Nutanix Guest Tools CD** und die darauffolgende *Installations-Routine* zu beenden.
+15.  Kehren Sie zurück in die VM Konsole um die NGT-Installation durch einen Klick auf die **Nutanix Guest Tools CD** und die darauffolgende *Installations-Routine (Setup)* zu starten.
      
      .. figure:: images/NGT2.png
 
 
 Zusammenfassung
 +++++++++++++++
-In diesem Lab haben Sie gesehen wie einfach man eine Linux und eine Windows basierte VM erstellen kann. Der Image Service erlaubt es Ihnen einen Katalog an verfügbaren Images für Ihre VM Bereitstellung anzulegen und unterstützt eine Vielzahl unterschiedlichster Formate (inkl. qcow, qcow2, vmdk, VHD, VHDx, RAW und ISO).
+In diesem Lab konnten Sie nun feststellen, wie einfach man eine Linux- und Windows-basierte-VM erstellen kann. Der Image-Service erlaubt es Ihnen einen Katalog an verfügbaren Images für Ihre VM-Bereitstellung anzulegen und unterstützt eine Vielzahl unterschiedlichster Formate (inkl. qcow, qcow2, vmdk, VHD, VHDx, RAW und ISO).
