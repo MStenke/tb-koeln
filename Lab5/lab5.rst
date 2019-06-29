@@ -9,7 +9,7 @@ Power-Actions und Console-Zugang
 ++++++++++++++++++++++++++++++++++
 #. In **Prism Element > VM > Table** nutzen Sie die Suche, um Ihre Linux-VM, die Sie in dem vorherigen Lab angelegt haben, zu finden (*Initialen*-LinuxVM).
 
- Beachten Sie, dass in der Spalte "Energiezustand" für diese VM entweder ein roter Punkt angezeigt wird, der angibt, dass die VM ausgeschaltet ist, oder ein grüner Punkt zu sehen ist, wenn die VM eingeschaltet ist.
+   Beachten Sie, dass in der Spalte "Energiezustand" für diese VM entweder ein roter Punkt angezeigt wird, der angibt, dass die VM ausgeschaltet ist, oder ein grüner Punkt zu sehen ist, wenn die VM eingeschaltet ist.
  
 #. Wählen Sie die VM aus und stellen Sie sicher, dass diese noch läuft. (Falls nicht, klicken Sie auf **Power On**).
 
