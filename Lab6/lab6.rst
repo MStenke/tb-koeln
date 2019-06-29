@@ -57,28 +57,28 @@ Wie vorher erwähnt, nutzt die Nutanix-Snapshot-Technologie das `redirect-on-wri
 Protection Domains
 ++++++++++++++++++
 
-#. In **Prism Element > Data Protection > Table**, klick **+ Protection Domain > Async DR** um eine PD zu erstellen.
+#. Klicken Sie nun in **Prism Element > Data Protection > Table**, und klicken dann auf **+ Protection Domain > Async DR** um eine *Protection Domain (PD)* zu erstellen.
 
    .. note::
-      Synchrone Replikation (Metro Availability) ist aktuell nur mit ESXi unterstützt and wird zu einem späterem Zeitpunkt mit AHV unterstützt.
+      Eine *synchrone Replikation* in Verbindung mit *Metro Availability* wird aktuell ausschließlich auf der Basis des VMware ESXi-Hypervisors unterstützt, wird aber zu einem späterem Zeitpunkt auch für AHV erwartet.
 
-#. Geben Sie einen Namen für die Protection Domain an und klicken auf **Create**.
+#. Geben Sie nun einen Namen für die zu erstellende Protection Domain in das Formular ein und klicken auf **Create**.
 
-#. Filtern oder scrollen Sie um die von Ihnen erstellten VMs zu selektieren die in die PD aufgenommen werden sollen.
+#. Suchen Sie nun durch *Filterung* oder durch *scrollen* die von Ihnen erstellten VMs im linken Teil des Fensters unter **Unprotected Entities** und wählen diese dann durch anklicken aus um sie in die PD aufzunehmen.  
 
-#. Klick auf **Protect Selected Entities** und stellen Sie sicher, dass die VMs in der rechten Spalte unter **Protected Entities** auftauchen.
+#. Klicken Sie nun auf **Protect Selected Entities** links unten im Fenster und warten bis die ausgewählten VMs im linken Feld des Fensters unter **Protected Entities** auftauchen.
 
     .. figure:: images/pd-entities.png
 
-   Consistency Groups erlauben es Ihnen mehrere VMs zu gruppieren um Snapshots zum gleichen Zeitpunkt aufzunehmen, z.B. wenn die VMs zu einer gleichen Anwendung gehören.
+   Consistency-Groups erlauben es Ihnen mehrere VMs zu gruppieren um Snapshots zum gleichen Zeitpunkt aufnehmen zu können, da die VMsz.B. zur gleichen Anwendung gehören.
 
-   .. note:: Nutanix Snapshots können Anwendungs konsistente Snapshots für unterstützte Betriebssysteme durchführen auf welchen die Nutanix Guest Tools (NGT) installiert sind. Jede VM die Anwendungs konsistente Snapshots verwendet wird Teil Ihrer eigenen Consistency Group.
+   .. note:: Mit Nutanix-Snapshots können Anwendungskonsistente-Snapshots für unterstützte Betriebssysteme durchgeführt werden. Voraussetzung hierfür ist, dass die Nutanix-Guest-Tools (NGT) in den entsprechenden VMs installiert sind. Jede VM, die Anwendungskonsistente-Snapshots verwendet wird Teil ihrer eigenen Consistency Group.
 
-#. Klick auf **Next**.
+#. Klick Sie nun auf **Next**.
 
-#. Klick auf **New Schedule** um die Recovery Point Objective (RPO) und Retention Policy zu definieren.
+#. Klick Sie bitte jetzt auf **New Schedule** um die *Recovery Point Objective (RPO)* sowie die *Retention Policy* zu definieren.
 
-#. Definieren Sie Ihre gewünschte Snapshot Frequenz (z.B. jede Stunde 1x)
+#. Definieren Sie Ihre gewünschte Snapshot-Frequenz, indem Sie z.B. **Repeat every 1 hour(s)** einstellen. Hierdurch wird dann jede Stunde ein Snapshot ezeugt. Stellen Sie dann noch die Start-Time ein und klicken Sie im Anschgluss daran dann auf **Create Schedule** und dann auf **Close**.
 
    .. note:: AHV unterstützt heute schon NearSync Snapshots mit RPOs so niedrig wie mit 1 Minute.
 
@@ -95,8 +95,8 @@ Protection Domains
 
 #. Klick auf **Close** um das Lab abzuschließen.
 
-Das war's - Sie haben erfolgreich die nativen Data Protection Optionen in Prism konfiguriert.
+Und das war's auch schon! Sie haben nun erfolgreich die nativen Data Protection Optionen in Prism konfiguriert.
 
 Zusammenfassung
 +++++++++++++++
-Nutanix bietet Data Protection Lösungen für virtuelle Datacenter anhand vieler verschiedener Möglichkeiten darunter u.a. "one-to-one" oder "one-to-many" Replikation. Die Nutanix Data Protection Möglichkeiten umfassen Funktionen auf VM, File und Volume Group Ebene, sodass VM's und Daten in einem sicheren Zustand bleiben. VM Level Snapshots und Replikations-Regeln können direkt aus Prism heraus für jeden unterstützten Hypervisor vorgenommen werden.
+Nutanix bietet unterschiedliche *Data-Protection-Lösungen* für virtuelle Datacenters anhand vieler verschiedener Möglichkeiten. Darunter befinden sich u. a. *one-to-one* oder *one-to-many* Replikationen. Die Möglichkeiten der Nutanix-Data-Protection-Funktionen beinhalten die VM-, File- und Volume-Group-Ebene, sodass VMs und Daten in einem geschützen und abgesicherten Zustand bleiben. VM-Level-Snapshots und Replikations-Regeln können für jeden unterstützten Hypervisor direkt aus Prism-Element heraus durchgeführt werden.
