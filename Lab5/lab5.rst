@@ -3,14 +3,14 @@
 ------------------------------
 Lab 5: Verwalten von Workloads
 ------------------------------
-**Jetzt da wir einige VMs bereits ausgerollt haben, lassen Sie uns anhand dieser ein paar VM Verwaltungsmöglichkeiten mit AHV (Power Aktionen, Klonen und Migration) erkunden.**
+**Jetzt da wir einige VMs bereits ausgerollt haben, lassen Sie uns anhand dieser einige VM-Verwaltungsmöglichkeiten mit AHV (Power Aktionen, Klonen und Migration) testen.**
 
-Power Aktionen und Konsolen Zugang
+Power-Actions und Console-Zugang
 ++++++++++++++++++++++++++++++++++
-#. In **Prism Element > VM > Table** nutzen die die Suche, um Ihre Linux VM die Sie in dem vorherigen Lab angelegt haben, zu finden (*Initialen*-LinuxVM).
+#. In **Prism Element > VM > Table** nutzen Sie die Suche, um Ihre Linux-VM, die Sie in dem vorherigen Lab angelegt haben, zu finden (*Initialen*-LinuxVM).
 
-   Note that the Power State column for that VM shows a red dot, indicating that the VM is powered off.
-
+ Beachten Sie, dass in der Spalte "Energiezustand" für diese VM entweder ein roter Punkt angezeigt wird, der angibt, dass die VM ausgeschaltet ist, oder ein grüner Punkt zu sehen ist, wenn die VM eingeschaltet ist.
+ 
 #. Wählen Sie die VM aus und stellen Sie sicher, dass diese noch läuft. (Falls nicht, klicken Sie auf **Power On**).
 
 #. Bei ausgewählter VM klicken Sie unterhalb der VM Tabelle auf **Launch Console**.
