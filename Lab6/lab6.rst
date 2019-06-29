@@ -4,55 +4,55 @@
 Lab 6: Data Protection
 --------------------------
 
-Nutanix bietet die Möglichkeit VM / vDisk-level basierte Storage Snapshots anzulegen. Protection Domains (PDs) sind ein Konstrukt um VM's zu gruppieren und darauf Snapshots und Replikations-Policies anzuwenden.
+Nutanix bietet die Möglichkeit VM- / vDisk-level basierte Storage Snapshots anzulegen. Protection Domains (PDs) sind ein Konstrukt um VMs zu gruppieren und darauf Snapshots und Replikations-Policies anzuwenden.
 
-**In diesem Lab werden Sie Prism Element nutzen um VM Snapshots zu erstellen und VM's aus diesen Snapshots wiederherzustellen, sowie eine Protection Domain für Ihre VMs anzulegen.**
+**In diesem Lab werden Sie Prism Element nutzen um VM-Snapshots zu erstellen und VMs aus diesen Snapshots wiederherzustellen sowie eine Protection Domain für Ihre VMs anzulegen.**
 
 
-VM Snapshots
+VM-Snapshots
 ++++++++++++
 
-#. In **Prism Element > VM > Table** wählen Sie Ihre *Initialen*-**Linux_VM** VM.
+#. In **Prism Element > VM > Table** wählen Sie Ihre *Initialen*-**Linux-VM**.
 
-#. Wenn die VM angeschaltet sein sollte, führen sie eine **Guest Shutdown** Power Aktion durch.
+#. Wenn die VM angeschaltet sein sollte, fahren Sie die VM herunter **Guest Shutdown**.
 
     .. figure:: images/poweroffvm.png
 
-#. Wählen Sie die VM und klicken Sie **Snapshot** von dem Menü unterhalb der Tabelle.
+#. Wählen Sie die VM und klicken Sie auf **Take Snapshot** innerhalb des Menüs unterhalb der Tabelle.
 
 #. Geben Sie einen Namen für Ihren Snapshot an und klicken Sie auf **Submit**.
 
     .. figure:: images/takesnap.png
 
-#. Wählen Sie **VM Snapshots** Tab unterhalb der Tabelle und sehen Sie sich die verfügbaren Snapshots für die ausgewählte VM an.
+#. Klicken Sie auf den **VM Snapshots**-Tab unterhalb der Tabelle und sehen Sie sich nun die verfügbaren Snapshots für die ausgewählte VM an.
 
     .. figure:: images/snap-list.png
 
-#. Unter **Actions**, klicken Sie auf **Details** um alle VM Eigenschaften zum Zeitpunkt des Snapshots zu sehen. Wie Sie sehen enthält der Snapshot den VM Zustand neben den reinen Storage Daten.
+#. Unter **Actions**, klicken Sie auf **Details** um die Eigenschaften der VM zum Zeitpunkt der Erstellung des Snapshots zu sehen. 
 
   .. raw:: html
 
     <h2><strong><font color="red">Jetzt wird es Zeit die VM zu zerstören!</font></strong></h2>
 
-7. Klicken Sie auf **Update** um die VM zu modifizieren und entfernen Sie sowohl das CD-ROM Laufwerk als auch die DISK durch klicken auf das **X** Symbol neben dem jeweiligen Eintrag. Klicken Sie danach auf **Save**.
+7. Nun klicken Sie auf **Update** um die VM zu modifizieren. Jetzt entfernen Sie sowohl das CD-ROM Laufwerk als auch die DISK durch anklicken des **X** Symbols neben den jeweiligen Devices. Klicken Sie danach auf **Save**.
 
    .. figure:: images/removedisks.png
 
-#. Versuchen Sie die VM zu starten (*Power on*) und öffnen Sie das Consolen Fenster (*Launch Console*).
+#. Starten Sie die VM (*Power on*) und öffnen Sie das Consolen Fenster (*Launch Console*).
 
    .. figure:: images/2048game.png
 
-   .. note:: Wie Sie sehen, hat die VM keine Disk mehr von welcher diese booten kann und zeigt daher das 2048 Spiel an.
+   .. note:: Wie Sie in der Abbildung sehen können, hat die VM keine Disk mehr von der sie booten kann. Sie zeigt daher das 2048ger Spiel an.
 
-#. Schalten Sie die VM aus (*Power off*).
+#. Schalten Sie die nun VM aus (*Power off*).
 
-#. Unter **VM Snapshots** wählen Sie Ihren Snapshot aus und klicken auf **Restore** um die VM wieder in einen funktionsfähigen Zustand zu versetzen. (Alternativ können Sie auch auf **Clone** klicken um einen Restore in Form einer (oder mehrerer) neuen VM(s) durchzuführen.
+#. Unter **VM Snapshots** wählen Sie Ihren zuvor von dieser VM erstellten Snapshot aus und klicken auf **Restore** um die VM wieder in den ursprünglichen und funktionsfähigen Zustand zu versetzen. (Alternativ können Sie auch auf **Clone** klicken um einen Restore in Form einer (oder mehrerer) neuen VM(s) durchzuführen.
 
     .. figure:: images/vmrestored.png
 
-#. Verifizieren Sie, dass die VM erfolgreich bootet.
+#. Schalten Sie die VM nun wieder ein und verifizieren, ob die VM erfolgreich bootet.
 
-Wie vorher erwähnt nutzen Nutanix Snapshots ein `redirect-on-write <https://nutanixbible.com/#anchor-book-of-acropolis-snapshots-and-clones>`_ Ansatz, welcher nicht unter Performance Verlusten durch verkettete Snapshots wie in anderen Hypervisoren leidet.
+Wie vorher erwähnt, nutzt die Nutanix-Snapshot-Technologie das `redirect-on-write <https://nutanixbible.com/#anchor-book-of-acropolis-snapshots-and-clones>`_ Verfahren, welches ohne verkettete Snapshots auskommt und dadurch höchste Performance bietet.
 
 Protection Domains
 ++++++++++++++++++
