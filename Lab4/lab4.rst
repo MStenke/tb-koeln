@@ -24,24 +24,24 @@ In dieser Übung erstellen Sie eine CentOS-VM von einem existierenden, vorinstal
 1.  In **Prism Element**, klick auf **VM**, klick auf **Create VM**.
 2.	Füllen Sie die Eingabemasken wie folgt aus:
     - **Name** : *Initialen*-LinuxVM
-    - **Description** - (Optional) Beschreibung für Ihre VM.
-    - **Timezone** – (UTC + 02:00) Europe / Berlin
-    -	**vCPU(s)** - 1
-    -	**Number of Cores per vCPU** - 1
-    -	**Memory** - 2 GiB
+    - **Description** : (Optional) Beschreibung für Ihre VM.
+    - **Timezone** : (UTC + 02:00) Europe / Berlin
+    -	**vCPU(s)** : 1
+    -	**Number of Cores per vCPU** : 1
+    -	**Memory** : 2 GiB
 
     .. figure:: images/createlinuxvm.png
 
     - Wählen Sie **+ Add New Disk**
-    - **Type** - DISK
-    - **Operation** - Clone from Image Service
-    - **Image** - CentOS7
+    - **Type** : DISK
+    - **Operation** : Clone from Image Service
+    - **Image** : CentOS7
     - Speichern mit **Add**
 
     .. figure:: images/createlinuxvm-adddisk.png
 
     - Wählen Sie **Add New NIC**
-    - VLAN Name - *Initialen***-Netzwerk_IPAM** (Ihr zuvor angelegtes IPAM Netzwerk)
+    - VLAN Name : *Initialen***-Netzwerk_IPAM** (Ihr zuvor angelegtes IPAM Netzwerk)
     - Speichern mit **Add**
     - VM speichern mit **Save**.
     - **Filtern** Sie in der VM liste nach Ihrer soeben angelegten VM, **starten** Sie diese und öffnen Sie die **Konsole** (*Launch Console*).
@@ -62,18 +62,18 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
 
 2.  Füllen die die folgenden Felder aus und klicken Sie auf **Save**:
 
-    - **Name** - *Initialen*-WindowsVM
-    - **Description** - (Optional) Beschreibung für Ihre VM.
-    - **Timezone** – (UTC + 02:00) Europe / Berlin
-    - **vCPU(s)** - 2
-    - **Number of Cores per vCPU** - 1
-    - **Memory** - 4 GiB
+    - **Name** : *Initialen*-WindowsVM
+    - **Description** : (Optional) Beschreibung für Ihre VM.
+    - **Timezone** : (UTC + 02:00) Europe / Berlin
+    - **vCPU(s)** : 2
+    - **Number of Cores per vCPU** : 1
+    - **Memory** : 4 GiB
 
     .. figure:: images/createwindowsvm.png
 
     - Wählen Sie das **Stift Symbol** neben **CDROM**
-    - **Operation** - Clone from Image Service
-    - **Image** - Windows2016.iso
+    - **Operation** : Clone from Image Service
+    - **Image** : Windows2016.iso
     - Wählen Sie **Update**
 
     .. figure:: images/windowsvm-add-iso.png
@@ -81,10 +81,10 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
     .. note:: Dies wird die Windows Server ISO von dem Image Service für die Installation einbinden.
 
     - Wählen Sie **+ Add New Disk**
-    - **Type** - DISK
-    - **Operation** - Allocate on Storage Container
-    - **Storage Container** - Default
-    - **Size (GiB)** - 30 GiB
+    - **Type** : DISK
+    - **Operation** : Allocate on Storage Container
+    - **Storage Container** : Default
+    - **Size (GiB)** : 30 GiB
     - Abschließen mit **Add**
 
     .. figure:: images/createwindowsvm-adddisk.png
@@ -92,9 +92,9 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
     .. note:: Dies wird eine 30 GiB vDisk auf dem ausgewähltem Storage Container erstellen, welche als Ziel für die Windows Installation dient.
 
     - Wählen Sie **+ Add New Disk**
-    - **Type** - CDROM
-    - **Operation** - Clone from Image Service
-    - **Image** - Nutanix-VirtIO-<aktuelleVersionsNummer>.iso
+    - **Type** : CDROM
+    - **Operation** : Clone from Image Service
+    - **Image** : Nutanix-VirtIO-<aktuelleVersionsNummer>.iso
     - Hinzufügen mit **Add**
 
     .. figure:: images/createwindowsvm-add-virtio.png
@@ -102,7 +102,7 @@ Nutanix validiert und verteilt diese Treiber via das Nutanix Portal (http://port
     .. note:: Dies sind die Nutanix VirtIO Treiber für die Gast VM.
 
     - Wählen Sie **+ Add New NIC**
-    - **VLAN Name** - Primary
+    - **VLAN Name** : Primary
     - Wählen Sie **Add**
 
 3.  VM speichern mit **Save**.
