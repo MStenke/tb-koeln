@@ -74,37 +74,39 @@ Wie planen Sie typischerweise welchen Workload Sie in Ihrer bestehenden Umgebung
     - **Cluster** : Wählen Sie Ihren Cluster aus.
     - **Target** : 6 months
 
-3.	Jetzt fügen Sie **150 neue Citrix XenDesktop Anwender** hinzu. Klicken Sie auf **Add/Adjust** und füllen die folgenden Felder wie folgt aus:
+3.	Jetzt klicken Sie auf **Add/Adjust** und fügen **150 neue Citrix XenDesktop-Benutzer** hinzu und klicken anschließend auf **Save**. Füllen Sie nun die folgenden Felder folgendermaßen aus:
 
     - **Workload** : VDI
     - **Vendor** : XenDesktop
     - **User Type** : Power User
     - **Provision Type** : Machine Creation Services
     - **Number of Users** : 150
-    - **On** : One Month from today
+    - **On** : Datum im mm/dd/yyyy-Format eintragen
 
-5.	Speichern Sie dieses **Scenario** und inspizieren Sie die **Runway Veränderungen** für *CPU*, *Memory* und *Storage*.
+5.	Speichern Sie dieses **Scenario** und schauen sich die **Runway Veränderungen** für *CPU*, *Memory* und *Storage* an.
 
         .. figure:: images/lab7-7.png
 
-    .. note:: Wiederholen Sie diesen Prozess (Workload hinzufügen) oder passen Sie den VDI Workload an, bis Sie insgesamt unter 6 Monate Runway gelangen.
+    .. note:: Wiederholen Sie nun diesen Prozess (Workload hinzufügen) oder passen die VDI-Workloads so lange an, bis Sie insgesamt unter 6 Monate Runway kommen.
 
-6.	Werfen Sie einen Blick auf die **Resource Sektion**  welche die aktuelle Hardware anzeigt.
+6.	Schauen Sie sich auch einmal die aktuelle Hardware an. Sie finden diese Inforamtion unter **Resources**.
 
-7.	Klicken Sie auf **Recommend** um zu sehen welche NX Konfiguration dem Cluster hinzugefügt werden kann, um die **Runway** zu verlängern.
+7.	Klicken Sie nun auf **Recommend** um zu sehen welche NX-Hardware-Konfiguration dem bestehenden Cluster hinzugefügt werden muss, um die **Runway** entsprechend diesen Lastanforderungen zu verlängern.
 
         .. figure:: images/lab7-8.png
 
-        .. note:: Experimentieren Sie gerne ein wenig mit weiterem Workload und sehen Sie welche Workload Veränderungen weitere Auswirkungen auf die **Runway** und die **Resource Recommendation** haben, z.B.  fügen sie weitere 150 VDI Nutzer in 3 Monaten hinzu, etc.
+        .. note:: Experimentieren Sie nun ein wenig mit weiteren Workloads und entwickeln ein Gefühl dafür, wie sich Änderungen im Hinblick auf Workload-Veränderungen auf die **Runway** und die **Resource Recommendation** auswirken. Fügen Sie beispielsweise in 3 Monaten weiter 150 VDI Nutzer hinzu, etc..
 
 
-8.	Generieren Sie ein **PDF Report** um detailierte Kapazitäts-Planungs-Informationen zu erhalten die als Grundlage für weitere Workload Planungen verwendet werden können.
+8.	Generieren Sie sich nun einen **PDF Report** um detailierte Kapazitäts-Planungs-Informationen zu erhalten die Sie als Grundlage für weitere Workload-Planungen verwenden können.
 
         .. figure:: images/lab7-9.png
 
 Zusammenfassung
 +++++++++++++++
 
-Die **Prism Central Reporting** Funktionalität bietet Ihnen die Möglichkeit Auswertung, die aktuelle und historische Daten umfassen, nach Ihren zeitlichen Vorgaben bequem regelmäßig per E-Mail zu empfangen. Die **Capacity Runway** Ansicht in dem Planungs-Dashboard zeigt & aggregiert kombinierte **Resource Runway** Information für alle registrierten Cluster an. Die **Scenario View** Ansicht in dem **Planning Dashboard** eröffnet Ihnen die Möglichkeit **"What If"** Szenarien für zukünftige Workloads (nach Ihren Vorgaben) zu evaluieren, um so zukünftigen Ressourcenbedarf vorrauszuplanen.
+Die **Prism Central Reporting-Funktionalität** bietet Ihnen die Möglichkeit diverse Auswertungen, die aktuelle und historische Daten umfassen, nach Ihren zeitlichen Vorgaben bequem und regelmäßig per eMail zu verteilen. Die **Capacity Runway** Ansicht im Planungs-Dashboard zeigt Ihnen aggregierte und kombinierte **Resource Runway** Information für alle Ihre registrierten Cluster. Die **Scenario View** Ansicht innerhalb des **Planning Dashboards** eröffnet Ihnen die Möglichkeit **What If Szenarien** für zukünftige Workloads (nach Ihren Vorgaben) zu evaluieren und so den anstehenden Ressourcenbedarf vorrauszuplanen.
  
-.. note:: Ein paar der vorgestellten Funktionen benötigen eine **Prism Central PRO Lizenz**. Und auch darüber hinaus gibt es noch weitere interessante Mehrwerte die Nutanix mit Prism Central & Prism Pro erbringen kann, so kommt z.B. Machine Learning zum Einsatz (**Nutanix X-Fit**) um **Anomalie Erkennung** oder auch **Automatisierung von Routine Tasks mit X-Play** anzugehen, etc. 
+.. note:: Es gibt noch viele weitere interessante Funktionen, die Nutanix mit Prism Central möglich macht. So kommt z.B. auch das Machine Learning in Prism Central zum Einsatz (**Nutanix X-FIT**), mit dem **Anomalie-Erkennung** möglich ist. Die **Automatisierung von Routine Tasks** mit **Nutanix X-Play** ist ebenfalls eine Funktion, die in Prism Central integriert wurde um an dieser Stelle einige der herausragenden Funktionen zu erwähnen 
+
+.. note:: Einige der hier vorgestellten Funktionen benötigen eine Prism Central PRO Lizenz.
