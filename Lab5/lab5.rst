@@ -13,9 +13,9 @@ Power-Actions und Console-Zugang
  
 #. Wählen Sie die VM aus und stellen Sie sicher, dass diese noch läuft. (Falls nicht, klicken Sie auf **Power On**).
 
-#. Bei ausgewählter VM klicken Sie unterhalb der VM Tabelle auf **Launch Console**.
+#. Bei ausgewählter VM klicken Sie unterhalb der VM-Tabelle auf **Launch Console**.
 
-   Das HTML5 Konsolen Fenster bietet rechts oben 4 Aktionen:
+   Das HTML5-Konsolen-Fenster bietet rechts oben 4 Aktionen:
 
     .. figure:: images/vmactionoptions.png
 
@@ -25,7 +25,7 @@ Power-Actions und Console-Zugang
 
    - **CTRL-ALT-DEL**: Sendet Ctrl+Alt+Del an die VM.
 
-   - **Take Screen Capture**: Nimmt einen Screenshot als png Datei auf.
+   - **Take Screen Capture**: Nimmt einen Screenshot als png-Datei auf.
 
    - **Power off / Reset VM**
 
@@ -33,32 +33,32 @@ Power-Actions und Console-Zugang
 
    .. note::
 
-     Für ESXi: Die Schritte in dieser Übung können ebenfalls aus Prism heraus durchgeführt werden wenn ein Cluster verwendet wird welches ESXi as Hypervisor verwendet und vCenter in Prism registriert hat
+     Falls Sie als Hypervisor ESXi einsetzen gilt: Die Schritte in dieser Übung können ebenfalls aus Prism heraus durchgeführt werden, wenn ein Cluster verwendet wird, der ESXi as Hypervisor nutzt und das vCenter in Prism registriert wurde.
 
      .. figure:: images/manage_workloads_06.png
 
-VM Clonen
-+++++++++
+VM-Cloning
+++++++++++
 
 #. In **Prism Element > VM > Table** wählen Sie Ihre *Initialen*-LinuxVM aus.
 
-#. Klicken Sie auf **Clone** von der **Actions** Liste.
+#. Klicken Sie auf **Clone** aus der **Actions-Leiste** unter der VM-Tabelle.
 
 #. Füllen Sie die folgenden Details aus und klicken Sie auf **Save**:
 
-   - **Number of Clones** - 2
-   - **Prefix Name**  - *Initialen*-LinuxVM**-Clone**
-   - **Starting Index Number** - 1
+   - **Number of Clones** : 2
+   - **Prefix Name** : *Initialen*-LinuxVM**-Clone**
+   - **Starting Index Number** : 1
 
    .. figure:: images/manage_workloads_02.png
 
-#. Lassen Sie diese **Powered Off**.
+#. Lassen Sie alle Clones ausgeschaltet **(Powered Off)**.
 
-   Sowohl Nutanix Snapshots als auch Clone's verwenden ein `redirect-on-write <https://nutanixbible.com/#anchor-book-of-acropolis-snapshots-and-clones>`_ Algorithmus um schnell und effizient Kopien von VMs durch Metadata Operationen zu erstellen.
+   Sowohl Nutanix Snapshots als auch Clones verwenden den `redirect-on-write <https://nutanixbible.com/#anchor-book-of-acropolis-snapshots-and-clones>`_ Algorithmus um schnell und effizient Kopien von VMs durch Metadata-Operationen zu erstellen.
 
-VM Migrationen
-++++++++++++++
-VM Live Migrationen sind ein kritisches Feature für jede virtualisierte Umgebung, da nur so VMs nahtlos zwischen Hosts innerhalb eines Clusters verschoben werden können um Infrastruktur Wartung oder Lastverteilung durchführen zu können.
+VM-Migration
+++++++++++++
+Live-Migration von VMs stellt ein extrem wichtiges Feature für jede virtualisierte Umgebung dar. Denn auf diese Weise können VMs im eingeschalteten Zustand unterbrechungsfrei - also nahtlos - zwischen den Hosts innerhalb eines Clusters verschoben werden.  Dieses Feature ist im Umfeld von Infrastruktur-Wartung oder im Bereich der Lastverteilung unverzichtbar.
 
 #. In **Prism Element > VM > Table** wählen Sie ihre *Initialen*-LinuxVM aus.
 
