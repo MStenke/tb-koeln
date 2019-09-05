@@ -7,7 +7,7 @@ Bootcamp Cluster Details
 Cluster Hardware Details
 ++++++++++++++++++++++++
 
-**Hardware Modell: NX-3060-G5 (All Flash)**
+**Hardware Modell: NX-3060 (Hybrid)**
 
 .. figure:: images/cluster3060g5a.png
 
