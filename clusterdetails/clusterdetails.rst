@@ -225,26 +225,26 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - **Sekundäres** Netzwerk
    * - **VLAN**
      - 0
-     - 311
+     - 851
    * - **Netzwerk IP Adresse**
-     - 10.42.81.0
-     - 10.42.81.128
+     - 10.42.85.0
+     - 10.42.85.128
    * - **Netzmaske**
      - 255.255.255.128 (/25)
      - 255.255.255.128 (/25)
    * - **Default Gateway**
-     - 10.42.81.1
-     - 10.42.81.129
+     - 10.42.85.1
+     - 10.42.85.129
    * - **IP Address Management (IPAM)**
      - Aktiviert
      - Aktiviert
    * - **DHCP Pool**
-     - 10.42.81.50 - 125
-     - 10.42.81.132-253
+     - 10.42.85.50  - 125
+     - 10.42.85.132 - 253
    * - **Domain**
      - NTNXLAB.local
      - NTNXLAB.local
    * - **DNS**
-     - 10.42.81.40 (DC VM)
-     - 10.42.81.40 (DC VM)
+     - 10.42.85.40 (DC VM)
+     - 10.42.85.40 (DC VM)
    
