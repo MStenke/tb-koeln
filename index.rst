@@ -1,4 +1,4 @@
-.. title:: Nutanix Technology Bootcamp Köln
+.. title:: Nutanix Technology Bootcamp
 
 .. toctree::
    :maxdepth: 2
