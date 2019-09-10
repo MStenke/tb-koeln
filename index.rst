@@ -19,6 +19,7 @@
 
    Lab2/lab2
 
+   Lab3/lab3
 
 
 .. _welcome:
