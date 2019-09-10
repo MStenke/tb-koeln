@@ -25,9 +25,9 @@
    
    Lab5/lab5
    
-   Lab6/Lab6
+   Lab6/lab6
    
-   Lab7/Lab7
+   Lab7/lab7
    
    
 
